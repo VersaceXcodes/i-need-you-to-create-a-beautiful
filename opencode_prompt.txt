@@ -1,0 +1,1473 @@
+You are an AI Software Engineer building a complete application. Your task is to set up the project AND implement all selected features.
+
+## Project Description
+I need you to create a beautiful "sales" landing page for Open Claw Wrapper (so people can start their own openclaw business)
+
+Get ClawWrapper
+Launch Your OpenClaw Wrapper Fast
+OpenClaw wrappers are doing $4K-$22K/mo. Yours could be next.
+
+Stop wiring up OAuth, payments, and deployment from scratch. Get a production-ready SaaS you can rebrand and ship today.
+
+Get ClawWrapper -
+$299
+$99
+Only 5 spots left at this price. Pay once. Full source code included.
+
+Wrappers Making Money Right Now
+Other OpenClaw wrappers showing what's possible. Different brands, real revenue.
+
+TrustMRR marketplace showing OpenClaw wrapper listings
+$4K-$22K/mo
+
+Multiple wrappers selling for $3K–$22K/mo
+OpenClaw wrappers listed on TrustMRR, each generating thousands in monthly recurring revenue. This is the kind of business you can build with the same starting point.
+
+Dashboard showing $4K MRR reached in 6 days
+$4K in 6 days
+
+$4K MRR in just 6 days after launch
+From zero to $4,779 MRR with 91 active subscriptions in under a week. The infrastructure was already built, so the only job was marketing.
+
+SimpleClaw revenue dashboard
+$22K+ revenue
+
+$22K all-time revenue and climbing
+SimpleClaw hit $22,773 in total revenue with $21,763 profit margin. A single wrapper, consistently earning month after month.
+
+Marc Lou
+“It's OpenClaw wrappers time!”
+Marc Lou
+
+Indie hacker, $2M+ in revenue from solo products
+
+Weeks of Work, or Hours with ClawWrapper
+Skip the boring infrastructure work and go straight to making money.
+
+Building From Scratch
+2–4 weeks of work
+
+✗
+Set up Next.js, TypeScript, Tailwind from scratch
+✗
+Build Google OAuth & session management
+✗
+Integrate Stripe subscriptions & webhooks
+✗
+Create admin dashboard & user management
+✗
+Set up remote Docker deployment over SSH
+✗
+Configure Caddy reverse proxy with auto HTTPS
+✗
+Set up Postgres database & row-level security
+✗
+Build Telegram bot integration
+✗
+Write VPS setup scripts & documentation
+With ClawWrapper
+Less than 1 day
+
+✓
+Step 1: Clone the repo & set your env variables
+✓
+Step 2: Connect your Stripe, Supabase & VPS keys
+✓
+Step 3: Run the setup script & deploy to your server
+What you end up with
+
+✓
+Live product accepting payments
+✓
+Admin dashboard tracking users
+✓
+Full source code you own forever
+✓
+HTTPS, SEO, and monitoring, done
+Everything You Need to Ship
+ClawWrapper comes loaded with every feature you'd spend weeks building yourself.
+
+Remote Docker Deployment
+Deploy user instances to your VPS over SSH. Automated setup script, container management, and resource limits, all built in.
+
+Supabase Auth & Database
+Google OAuth login, session persistence, row-level security, and a full Postgres database. All pre-configured and ready to go.
+
+Stripe Payments
+Subscription billing with Stripe Checkout, webhooks, and customer portal. Start collecting revenue from day one.
+
+Admin Dashboard
+Manage users, view analytics, and control your SaaS from a built-in admin panel. No extra tools needed.
+
+Caddy Reverse Proxy
+Automatic HTTPS with Let's Encrypt. Zero-config SSL certificates for your custom domain.
+
+Telegram Bot Integration
+Built-in Telegram bot for notifications, user support, and admin alerts. Stay connected to your SaaS.
+
+Full Brand Customization
+Change the name, logo, colors, and copy in minutes. Make it yours. No trace of the boilerplate.
+
+Responsive & Server-Rendered
+Mobile-first design with Tailwind CSS and server-rendered Next.js pages. Add your own meta tags and OG images to match your brand.
+
+Built with
+
+Next.js
+Next.js
+React
+React
+TypeScript
+TypeScript
+Tailwind CSS
+Tailwind CSS
+Supabase
+Supabase
+Stripe
+Stripe
+Docker
+Docker
+Caddy
+Caddy
+Telegram
+Telegram
+Node.js
+Node.js
+One Price. Everything Included.
+No subscriptions. No per-seat pricing. No hidden fees.
+
+Early-bird: only 5 spots at this price
+One-time payment
+$299
+$99
+Full Next.js + TypeScript source code (strict mode)
+Google OAuth login & session management
+Stripe subscriptions, webhooks & customer portal
+Admin dashboard with user & instance management
+Remote Docker deployment over SSH to your VPS
+Caddy reverse proxy with automatic HTTPS
+Postgres database with row-level security
+Telegram bot integration (optional)
+White-label branding via environment variables
+VPS setup script & step-by-step documentation
+Lifetime updates, no subscription
+Unlimited products, clone for each brand
+Get ClawWrapper
+Frequently Asked Questions
+Everything you need to know before you buy.
+
+
+How do I get access after I buy?
+
+
+What exactly do I get for $99?
+
+
+Do I need to be a developer to use this?
+
+
+How is this different from ShipFast or other boilerplates?
+
+
+What auth methods are included?
+
+
+What's included in lifetime updates?
+
+
+Can I use this for multiple products?
+
+
+Is there a refund policy?
+
+Stop Building Infrastructure. Start Earning.
+Every day you spend wiring up OAuth, Stripe webhooks, and Docker deployment is a day you're not making money. Other wrappers built on this stack are doing $4K-$22K/mo. Yours could be next.
+
+Start Building Now -
+$299
+$99
+Only 5 spots left at early-bird pricing. Then it's $299.
+
+Full source code
+Lifetime access
+Free updates
+Comprehensive docs
+ClawWrapper
+Terms
+Privacy
+License
+Support
+SimpleClaw.com
+Contact Support
+Deploy OpenClaw under 1 minute
+Avoid all technical complexity and one-click deploy your own 24/7 active OpenClaw instance under 1 minute.
+
+Comparison
+Traditional Method vs SimpleClaw
+Traditional
+
+Purchasing local virtual machine
+15 min
+Creating SSH keys and storing securely
+10 min
+Connecting to the server via SSH
+5 min
+Installing Node.js and NPM
+5 min
+Installing OpenClaw
+7 min
+Setting up OpenClaw
+10 min
+Connecting to AI provider
+4 min
+Pairing with Telegram
+4 min
+Total
+60 min
+
+If you're non-technical, multiply these times by 10 — you have to learn each step before doing.
+
+SimpleClaw
+
+<1 min
+
+Pick a model, connect Telegram, deploy — done under 1 minute.
+
+Servers, SSH and OpenClaw Environment are already set up, waiting to get assigned. Simple, secure and fast connection to your bot.
+
+What can OpenClaw do for you?
+One assistant, thousands of use cases
+Read & summarize email
+Draft replies and follow-ups
+Translate messages in real time
+Organize your inbox
+Answer support tickets
+Summarize long documents
+Notify before a meeting
+Schedule meetings from chat
+Read & summarize email
+Draft replies and follow-ups
+Translate messages in real time
+Organize your inbox
+Answer support tickets
+Summarize long documents
+Notify before a meeting
+Schedule meetings from chat
+Read & summarize email
+Draft replies and follow-ups
+Translate messages in real time
+Organize your inbox
+Answer support tickets
+Summarize long documents
+Notify before a meeting
+Schedule meetings from chat
+Read & summarize email
+Draft replies and follow-ups
+Translate messages in real time
+Organize your inbox
+Answer support tickets
+Summarize long documents
+Notify before a meeting
+Schedule meetings from chat
+Remind you of deadlines
+Plan your week
+Take meeting notes
+Sync across time zones
+Do your taxes
+Track expenses and receipts
+Compare insurance quotes
+Manage subscriptions
+Remind you of deadlines
+Plan your week
+Take meeting notes
+Sync across time zones
+Do your taxes
+Track expenses and receipts
+Compare insurance quotes
+Manage subscriptions
+Remind you of deadlines
+Plan your week
+Take meeting notes
+Sync across time zones
+Do your taxes
+Track expenses and receipts
+Compare insurance quotes
+Manage subscriptions
+Remind you of deadlines
+Plan your week
+Take meeting notes
+Sync across time zones
+Do your taxes
+Track expenses and receipts
+Compare insurance quotes
+Manage subscriptions
+Run payroll calculations
+Negotiate refunds
+Find coupons
+Find best prices online
+Find discount codes
+Price-drop alerts
+Compare product specs
+Negotiate deals
+Run payroll calculations
+Negotiate refunds
+Find coupons
+Find best prices online
+Find discount codes
+Price-drop alerts
+Compare product specs
+Negotiate deals
+Run payroll calculations
+Negotiate refunds
+Find coupons
+Find best prices online
+Find discount codes
+Price-drop alerts
+Compare product specs
+Negotiate deals
+Run payroll calculations
+Negotiate refunds
+Find coupons
+Find best prices online
+Find discount codes
+Price-drop alerts
+Compare product specs
+Negotiate deals
+Write contracts and NDAs
+Research competitors
+Screen and prioritize leads
+Generate invoices
+Create presentations from bullet points
+Book travel and hotels
+Find recipes from ingredients
+Draft social posts
+Write contracts and NDAs
+Research competitors
+Screen and prioritize leads
+Generate invoices
+Create presentations from bullet points
+Book travel and hotels
+Find recipes from ingredients
+Draft social posts
+Write contracts and NDAs
+Research competitors
+Screen and prioritize leads
+Generate invoices
+Create presentations from bullet points
+Book travel and hotels
+Find recipes from ingredients
+Draft social posts
+Write contracts and NDAs
+Research competitors
+Screen and prioritize leads
+Generate invoices
+Create presentations from bullet points
+Book travel and hotels
+Find recipes from ingredients
+Draft social posts
+Monitor news and alerts
+Set and track goals
+Screen cold outreach
+Draft job descriptions
+Run standup summaries
+Track OKRs and KPIs
+Monitor news and alerts
+Set and track goals
+Screen cold outreach
+Draft job descriptions
+Run standup summaries
+Track OKRs and KPIs
+Monitor news and alerts
+Set and track goals
+Screen cold outreach
+Draft job descriptions
+Run standup summaries
+Track OKRs and KPIs
+Monitor news and alerts
+Set and track goals
+Screen cold outreach
+Draft job descriptions
+Run standup summaries
+Track OKRs and KPIs
+PS. You can add as many use cases as you want via natural language
+Built with ❤️ by
+Savio Martin
+Contact Support
+
+## Phase 1: Project Setup
+
+**feature_list.json already exists at /app/feature_list.json** - The features have been pre-configured. Do NOT create or overwrite this file.
+Your task is to implement the features and update /app/feature_list.json when each is complete.
+
+Here are the features for reference:
+```json
+[
+  {
+    "id": "landing-hero-section",
+    "category": "ui",
+    "description": "Display hero section with main headline 'Launch Your OpenClaw Wrapper Fast', subheadline about revenue potential ($4K-$22K/mo), and primary CTA button. This is the first impression that converts visitors into buyers by immediately communicating value.",
+    "steps": [
+      "Navigate to landing page root URL",
+      "Verify headline 'Launch Your OpenClaw Wrapper Fast' is prominently displayed",
+      "Verify subheadline mentions $4K-$22K/mo revenue range",
+      "Verify 'Get ClawWrapper' CTA button is visible with pricing ($299 crossed out, $99 shown)",
+      "Verify scarcity message 'Only 5 spots left at this price' is displayed"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 1
+  },
+  {
+    "id": "pricing-display-hero",
+    "category": "ui",
+    "description": "Show crossed-out original price ($299) with discounted price ($99) and scarcity indicator ('Only 5 spots left'). Creates urgency and perceived value to drive immediate purchase decisions.",
+    "steps": [
+      "Locate pricing section in hero area",
+      "Verify $299 is displayed with strikethrough styling",
+      "Verify $99 is prominently displayed as current price",
+      "Verify 'Only 5 spots left at this price' scarcity message is visible",
+      "Verify 'Pay once. Full source code included.' benefit text is shown"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 2
+  },
+  {
+    "id": "social-proof-revenue-section",
+    "category": "ui",
+    "description": "Display 'Wrappers Making Money Right Now' section with 3 real revenue examples (TrustMRR listings, $4K in 6 days, $22K+ revenue). Provides credibility and demonstrates market validation to overcome buyer skepticism.",
+    "steps": [
+      "Scroll to social proof section",
+      "Verify section header 'Wrappers Making Money Right Now' is displayed",
+      "Verify TrustMRR marketplace screenshot showing $4K-$22K/mo is visible",
+      "Verify dashboard screenshot showing '$4K in 6 days' with 91 subscriptions is visible",
+      "Verify SimpleClaw revenue dashboard showing $22K+ total revenue is visible"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 3
+  },
+  {
+    "id": "testimonial-marc-lou",
+    "category": "ui",
+    "description": "Display testimonial from Marc Lou (indie hacker with $2M+ revenue) saying 'It's OpenClaw wrappers time!'. Leverages authority and credibility from successful entrepreneur to validate the opportunity.",
+    "steps": [
+      "Locate testimonial section",
+      "Verify Marc Lou's quote 'It's OpenClaw wrappers time!' is displayed",
+      "Verify Marc Lou's name and title are shown",
+      "Verify credential 'Indie hacker, $2M+ in revenue from solo products' is visible",
+      "Verify profile image or avatar is displayed"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 4
+  },
+  {
+    "id": "comparison-table-scratch-vs-wrapper",
+    "category": "ui",
+    "description": "Show side-by-side comparison of 'Building From Scratch' (2-4 weeks, 9 manual tasks with ✗) vs 'With ClawWrapper' (less than 1 day, 3 simple steps with ✓). Demonstrates time savings and simplicity to justify the purchase price.",
+    "steps": [
+      "Scroll to comparison section with header 'Weeks of Work, or Hours with ClawWrapper'",
+      "Verify left column shows 'Building From Scratch' with '2–4 weeks of work' timeframe",
+      "Verify 9 tasks are listed with ✗ icons (OAuth, Stripe, Docker, etc.)",
+      "Verify right column shows 'With ClawWrapper' with 'Less than 1 day' timeframe",
+      "Verify 3 simple steps are listed with ✓ icons and final outcome section"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 5
+  },
+  {
+    "id": "features-grid-display",
+    "category": "ui",
+    "description": "Display 'Everything You Need to Ship' section with 8 feature cards (Remote Docker Deployment, Supabase Auth, Stripe Payments, Admin Dashboard, Caddy Proxy, Telegram Bot, Brand Customization, Responsive Design). Communicates comprehensive value and reduces perceived risk.",
+    "steps": [
+      "Scroll to features section with header 'Everything You Need to Ship'",
+      "Verify 8 feature cards are displayed in a grid layout",
+      "Verify each card has a title, description, and relevant icon/visual",
+      "Verify features include: Remote Docker Deployment, Supabase Auth & Database, Stripe Payments, Admin Dashboard",
+      "Verify additional features: Caddy Reverse Proxy, Telegram Bot Integration, Full Brand Customization, Responsive & Server-Rendered"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 6
+  },
+  {
+    "id": "tech-stack-badges",
+    "category": "ui",
+    "description": "Display technology stack badges/logos (Next.js, React, TypeScript, Tailwind CSS, Supabase, Stripe, Docker, Caddy, Telegram, Node.js). Builds trust with technical buyers by showing modern, proven technologies.",
+    "steps": [
+      "Locate 'Built with' section below features",
+      "Verify all 10 technology logos/badges are displayed",
+      "Verify logos include: Next.js, React, TypeScript, Tailwind CSS, Supabase",
+      "Verify logos include: Stripe, Docker, Caddy, Telegram, Node.js",
+      "Verify logos are properly sized and aligned"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 7
+  },
+  {
+    "id": "pricing-section-detailed",
+    "category": "ui",
+    "description": "Display detailed pricing card with 'One Price. Everything Included.' headline, $299 crossed out to $99, scarcity message, and complete feature checklist (12+ items). Final conversion point before purchase with all value props consolidated.",
+    "steps": [
+      "Scroll to main pricing section with header 'One Price. Everything Included.'",
+      "Verify 'Early-bird: only 5 spots at this price' urgency message is shown",
+      "Verify pricing shows $299 crossed out and $99 as current price",
+      "Verify 'One-time payment' is clearly stated",
+      "Verify complete feature checklist with 12+ items is displayed with checkmarks"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 8
+  },
+  {
+    "id": "pricing-feature-checklist",
+    "category": "ui",
+    "description": "Display comprehensive checklist of included features in pricing card (source code, OAuth, Stripe, admin dashboard, Docker deployment, Caddy, Postgres, Telegram, white-label, docs, lifetime updates, unlimited products). Removes objections by showing everything included.",
+    "steps": [
+      "Locate feature checklist within pricing card",
+      "Verify 'Full Next.js + TypeScript source code (strict mode)' is listed",
+      "Verify authentication, payment, and deployment features are listed",
+      "Verify 'Lifetime updates, no subscription' is included",
+      "Verify 'Unlimited products, clone for each brand' is the final item"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 9
+  },
+  {
+    "id": "cta-button-pricing-section",
+    "category": "functional",
+    "description": "Display prominent 'Get ClawWrapper' CTA button in pricing section that initiates purchase flow. Primary conversion action for the entire landing page.",
+    "steps": [
+      "Locate 'Get ClawWrapper' button in pricing section",
+      "Verify button is prominently styled and easily clickable",
+      "Verify button displays current price ($99)",
+      "Click button and verify it initiates checkout or purchase flow",
+      "Verify button has appropriate hover/active states"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 10
+  },
+  {
+    "id": "faq-section-display",
+    "category": "ui",
+    "description": "Display 'Frequently Asked Questions' section with 8 common questions (access after purchase, what's included, developer requirements, comparison to competitors, auth methods, updates, multiple products, refund policy). Addresses objections and reduces purchase friction.",
+    "steps": [
+      "Scroll to FAQ section with header 'Frequently Asked Questions'",
+      "Verify section subtitle 'Everything you need to know before you buy.' is shown",
+      "Verify 8 FAQ questions are listed",
+      "Verify questions cover: access, contents, technical requirements, differentiation",
+      "Verify questions cover: auth methods, updates, multiple products, refunds"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 11
+  },
+  {
+    "id": "faq-accordion-interaction",
+    "category": "functional",
+    "description": "Enable accordion/expandable interaction for FAQ items so users can click to reveal answers. Improves scannability and allows users to find specific information quickly.",
+    "steps": [
+      "Navigate to FAQ section",
+      "Click on first FAQ question",
+      "Verify answer expands/reveals below the question",
+      "Click on another FAQ question",
+      "Verify previous answer collapses and new answer expands (or both remain open depending on design)"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 12
+  },
+  {
+    "id": "final-cta-section",
+    "category": "ui",
+    "description": "Display final CTA section with 'Stop Building Infrastructure. Start Earning.' headline, reinforcement of revenue potential, pricing, scarcity, and CTA button. Last chance to convert before footer.",
+    "steps": [
+      "Scroll to final CTA section near page bottom",
+      "Verify headline 'Stop Building Infrastructure. Start Earning.' is displayed",
+      "Verify copy mentions '$4K-$22K/mo' revenue examples",
+      "Verify pricing shows $299 crossed out to $99",
+      "Verify 'Only 5 spots left at early-bird pricing. Then it's $299.' urgency message is shown"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 13
+  },
+  {
+    "id": "final-cta-button",
+    "category": "functional",
+    "description": "Display 'Start Building Now' CTA button in final section that initiates purchase. Captures users who scrolled through entire page and are ready to buy.",
+    "steps": [
+      "Locate 'Start Building Now' button in final CTA section",
+      "Verify button shows pricing ($299 crossed out, $99 shown)",
+      "Verify button is prominently styled",
+      "Click button and verify it initiates checkout flow",
+      "Verify button has appropriate hover/active states"
+    ],
+    "priority": 1,
+    "passes": false,
+    "selected": true,
+    "order": 14
+  },
+  {
+    "id": "footer-navigation",
+    "category": "navigation",
+    "description": "Display footer with ClawWrapper branding, legal links (Terms, Privacy, License), support link, and product information. Provides necessary legal/support access and reinforces brand.",
+    "steps": [
+      "Scroll to page footer",
+      "Verify 'ClawWrapper' branding is displayed",
+      "Verify links to Terms, Privacy, License, and Support are present",
+      "Click each link and verify it navigates to appropriate page",
+      "Verify footer has appropriate styling and layout"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 15
+  },
+  {
+    "id": "simpleclaw-comparison-section",
+    "category": "ui",
+    "description": "Display SimpleClaw.com promotional section showing 'Deploy OpenClaw under 1 minute' with comparison table (Traditional 60 min vs SimpleClaw <1 min). This appears to be a related product showcase demonstrating the wrapper's value proposition.",
+    "steps": [
+      "Scroll to SimpleClaw comparison section",
+      "Verify headline 'Deploy OpenClaw under 1 minute' is displayed",
+      "Verify comparison table shows Traditional method (60 min total) vs SimpleClaw (<1 min)",
+      "Verify Traditional column lists 8 steps with time estimates",
+      "Verify SimpleClaw column shows simplified process"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 16
+  },
+  {
+    "id": "openclaw-use-cases-carousel",
+    "category": "ui",
+    "description": "Display 'What can OpenClaw do for you?' section with scrolling/animated carousel of use cases (email management, scheduling, document summarization, expense tracking, etc.). Demonstrates product versatility and helps users envision applications.",
+    "steps": [
+      "Scroll to use cases section with header 'What can OpenClaw do for you?'",
+      "Verify subtitle 'One assistant, thousands of use cases' is displayed",
+      "Verify multiple use case items are displayed in a grid or carousel",
+      "Verify use cases include: email management, scheduling, document tasks, financial tasks",
+      "Verify animation or scrolling effect is present (if applicable)"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 17
+  },
+  {
+    "id": "use-cases-categories",
+    "category": "ui",
+    "description": "Display categorized use cases across different domains: productivity (email, meetings, documents), finance (taxes, expenses, subscriptions), shopping (coupons, price alerts), business (contracts, invoices, leads), and personal (travel, recipes, goals). Shows breadth of application.",
+    "steps": [
+      "Review all use case items in the section",
+      "Verify productivity use cases: email summarization, meeting scheduling, document summarization",
+      "Verify finance use cases: tax help, expense tracking, subscription management",
+      "Verify shopping use cases: coupon finding, price alerts, product comparison",
+      "Verify business and personal use cases are represented"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 18
+  },
+  {
+    "id": "natural-language-customization-note",
+    "category": "ui",
+    "description": "Display note 'PS. You can add as many use cases as you want via natural language' below use cases. Highlights flexibility and ease of customization for buyers.",
+    "steps": [
+      "Scroll to bottom of use cases section",
+      "Verify PS note about natural language customization is displayed",
+      "Verify text reads 'PS. You can add as many use cases as you want via natural language'",
+      "Verify note is styled distinctly (e.g., italics, different color)",
+      "Verify note is positioned after all use case items"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 19
+  },
+  {
+    "id": "creator-attribution",
+    "category": "ui",
+    "description": "Display 'Built with ❤️ by Savio Martin' attribution with link to creator. Adds personal touch and credibility, allows users to research creator.",
+    "steps": [
+      "Scroll to footer or bottom section",
+      "Verify 'Built with ❤️ by' text is displayed",
+      "Verify 'Savio Martin' name is shown",
+      "Verify name is clickable/linked",
+      "Click name and verify it navigates to creator profile or website"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 20
+  },
+  {
+    "id": "contact-support-link",
+    "category": "navigation",
+    "description": "Display 'Contact Support' link in footer and SimpleClaw section. Provides customer support access for pre-sale questions and post-purchase help.",
+    "steps": [
+      "Locate 'Contact Support' link in footer",
+      "Verify link is clearly visible and styled",
+      "Click link and verify it opens email client or support form",
+      "Verify link appears in multiple locations if applicable",
+      "Verify link has appropriate hover state"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 21
+  },
+  {
+    "id": "responsive-mobile-layout",
+    "category": "ui",
+    "description": "Ensure entire landing page is responsive and mobile-optimized with proper layout adjustments for smaller screens. Critical since many users browse on mobile devices.",
+    "steps": [
+      "Open landing page on mobile device or resize browser to mobile width",
+      "Verify hero section stacks vertically and remains readable",
+      "Verify comparison table adapts to mobile layout",
+      "Verify feature cards stack appropriately",
+      "Verify all CTA buttons remain accessible and tappable"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 22
+  },
+  {
+    "id": "sticky-header-navigation",
+    "category": "navigation",
+    "description": "Display sticky header with ClawWrapper logo/branding and navigation (if applicable). Provides consistent branding and navigation access as users scroll.",
+    "steps": [
+      "Load landing page",
+      "Verify header with ClawWrapper branding is visible at top",
+      "Scroll down the page",
+      "Verify header remains visible (sticky) or scrolls naturally based on design",
+      "Verify header contains logo and any navigation elements"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 23
+  },
+  {
+    "id": "smooth-scroll-anchors",
+    "category": "functional",
+    "description": "Enable smooth scrolling to section anchors when users click navigation links or CTA buttons. Improves user experience and page flow.",
+    "steps": [
+      "Identify any anchor links in navigation or page",
+      "Click an anchor link (e.g., to pricing section)",
+      "Verify page smoothly scrolls to target section",
+      "Verify scroll animation is not jarring",
+      "Verify target section is properly positioned after scroll"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 24
+  },
+  {
+    "id": "loading-states-images",
+    "category": "ui",
+    "description": "Display loading states or placeholders for images (screenshots, logos, testimonials) while they load. Prevents layout shift and improves perceived performance.",
+    "steps": [
+      "Load landing page with throttled network speed",
+      "Verify placeholder or skeleton screens appear for images",
+      "Wait for images to load",
+      "Verify images replace placeholders smoothly",
+      "Verify no significant layout shift occurs"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 25
+  },
+  {
+    "id": "meta-tags-seo",
+    "category": "ui",
+    "description": "Include proper meta tags (title, description, OG tags) for SEO and social sharing. Ensures landing page appears correctly when shared and ranks in search.",
+    "steps": [
+      "View page source or inspect head element",
+      "Verify title tag contains relevant keywords (e.g., 'ClawWrapper - Launch Your OpenClaw Wrapper Fast')",
+      "Verify meta description is present and compelling",
+      "Verify Open Graph tags (og:title, og:description, og:image) are present",
+      "Share URL on social media and verify preview appears correctly"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 26
+  },
+  {
+    "id": "favicon-display",
+    "category": "ui",
+    "description": "Display favicon in browser tab for brand recognition. Small but important detail for professional appearance.",
+    "steps": [
+      "Open landing page in browser",
+      "Verify favicon appears in browser tab",
+      "Verify favicon is clear and recognizable",
+      "Open multiple tabs and verify favicon helps identify the page",
+      "Verify favicon loads quickly"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 27
+  },
+  {
+    "id": "cta-button-hover-states",
+    "category": "ui",
+    "description": "Display hover and active states for all CTA buttons (Get ClawWrapper, Start Building Now) with visual feedback. Improves usability and indicates interactivity.",
+    "steps": [
+      "Locate primary CTA button",
+      "Hover mouse over button",
+      "Verify button changes appearance (color, shadow, scale, etc.)",
+      "Click and hold button",
+      "Verify active state is visually distinct from hover state"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 28
+  },
+  {
+    "id": "scarcity-timer-countdown",
+    "category": "functional",
+    "description": "Optionally display countdown timer or dynamic scarcity indicator for 'Only 5 spots left' message. Increases urgency and conversion rate (if implemented).",
+    "steps": [
+      "Locate scarcity message 'Only 5 spots left'",
+      "Check if countdown timer or dynamic counter is present",
+      "If present, verify timer counts down in real-time",
+      "Refresh page and verify timer persists or resets appropriately",
+      "Verify timer creates sense of urgency without being misleading"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 29
+  },
+  {
+    "id": "external-link-trust-indicators",
+    "category": "ui",
+    "description": "Display trust indicators for external links (TrustMRR, revenue screenshots) with proper attribution. Builds credibility by showing real, verifiable data sources.",
+    "steps": [
+      "Locate revenue proof screenshots (TrustMRR, dashboard images)",
+      "Verify screenshots are high quality and readable",
+      "Verify captions or labels clearly explain what each screenshot shows",
+      "If links are present, verify they open in new tab",
+      "Verify screenshots appear authentic and unmanipulated"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 30
+  },
+  {
+    "id": "feature-card-icons",
+    "category": "ui",
+    "description": "Display relevant icons or illustrations for each feature card (Docker icon for deployment, lock for auth, credit card for payments, etc.). Improves scannability and visual appeal.",
+    "steps": [
+      "Navigate to 'Everything You Need to Ship' section",
+      "Verify each of 8 feature cards has a relevant icon or illustration",
+      "Verify icons are consistent in style and size",
+      "Verify icons accurately represent their associated features",
+      "Verify icons enhance rather than distract from content"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 31
+  },
+  {
+    "id": "comparison-table-responsive",
+    "category": "ui",
+    "description": "Ensure comparison table (Scratch vs ClawWrapper) is responsive and readable on mobile devices. Critical for mobile users to understand value proposition.",
+    "steps": [
+      "Open landing page on mobile device or narrow browser window",
+      "Navigate to comparison section",
+      "Verify table adapts to mobile layout (stacks vertically or scrolls horizontally)",
+      "Verify all text remains readable",
+      "Verify checkmarks and X marks are clearly visible"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 32
+  },
+  {
+    "id": "pricing-card-shadow-highlight",
+    "category": "ui",
+    "description": "Display pricing card with visual emphasis (shadow, border, highlight) to draw attention. Makes the purchase decision point stand out from surrounding content.",
+    "steps": [
+      "Navigate to pricing section",
+      "Verify pricing card has visual emphasis (shadow, border, background color)",
+      "Verify card stands out from surrounding content",
+      "Verify emphasis is not overwhelming or garish",
+      "Compare to other page elements and confirm pricing card is most prominent"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 33
+  },
+  {
+    "id": "testimonial-avatar-image",
+    "category": "ui",
+    "description": "Display avatar/profile image for Marc Lou testimonial. Adds authenticity and human element to social proof.",
+    "steps": [
+      "Navigate to Marc Lou testimonial section",
+      "Verify profile image or avatar is displayed",
+      "Verify image is high quality and professional",
+      "Verify image is properly sized and positioned",
+      "Verify image loads quickly"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 34
+  },
+  {
+    "id": "revenue-screenshot-lightbox",
+    "category": "functional",
+    "description": "Enable click-to-enlarge functionality for revenue screenshots so users can see details. Builds trust by allowing verification of proof.",
+    "steps": [
+      "Locate revenue proof screenshots",
+      "Click on a screenshot",
+      "Verify screenshot opens in lightbox or modal at larger size",
+      "Verify enlarged image is clear and readable",
+      "Verify user can close lightbox and return to page"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 35
+  },
+  {
+    "id": "feature-list-checkmarks",
+    "category": "ui",
+    "description": "Display checkmarks (✓) for all included features in pricing section and comparison table. Visual indicator of what's included vs excluded.",
+    "steps": [
+      "Navigate to pricing feature list",
+      "Verify each feature has a checkmark icon",
+      "Verify checkmarks are consistent in style and color",
+      "Navigate to comparison table",
+      "Verify 'With ClawWrapper' column uses checkmarks while 'From Scratch' uses X marks"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 36
+  },
+  {
+    "id": "page-load-performance",
+    "category": "functional",
+    "description": "Ensure landing page loads quickly (under 3 seconds) with optimized images and code. Critical for conversion rate and user experience.",
+    "steps": [
+      "Open landing page with network throttling disabled",
+      "Measure time to first contentful paint",
+      "Verify page loads in under 3 seconds",
+      "Verify images are optimized and lazy-loaded where appropriate",
+      "Verify no blocking resources delay initial render"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 37
+  },
+  {
+    "id": "analytics-tracking-setup",
+    "category": "functional",
+    "description": "Implement analytics tracking for page views, CTA clicks, and conversion events. Essential for measuring landing page performance and optimizing conversion rate.",
+    "steps": [
+      "Verify analytics script is present in page source",
+      "Navigate through landing page",
+      "Click on CTA buttons",
+      "Verify events are tracked in analytics dashboard",
+      "Verify tracking does not slow down page load"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 38
+  },
+  {
+    "id": "email-capture-optional",
+    "category": "functional",
+    "description": "Optionally display email capture form for users not ready to buy. Allows follow-up marketing to recover potential customers.",
+    "steps": [
+      "Scan page for email capture form or newsletter signup",
+      "If present, verify form is clearly labeled",
+      "Enter test email address",
+      "Submit form and verify success message",
+      "Verify email is captured in marketing system"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 39
+  },
+  {
+    "id": "exit-intent-popup",
+    "category": "functional",
+    "description": "Optionally display exit-intent popup with special offer or email capture when user attempts to leave. Can recover abandoning visitors.",
+    "steps": [
+      "Navigate to landing page",
+      "Move mouse cursor toward browser close button or back button",
+      "Verify exit-intent popup appears (if implemented)",
+      "Verify popup offers value (discount, email capture, etc.)",
+      "Verify popup can be easily dismissed"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 40
+  },
+  {
+    "id": "social-share-buttons",
+    "category": "functional",
+    "description": "Optionally display social share buttons for users to share landing page. Enables word-of-mouth marketing and viral growth.",
+    "steps": [
+      "Scan page for social share buttons",
+      "If present, verify buttons for major platforms (Twitter, LinkedIn, Facebook)",
+      "Click a share button",
+      "Verify it opens share dialog with pre-populated text",
+      "Verify shared link includes proper OG tags"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 41
+  },
+  {
+    "id": "live-chat-widget",
+    "category": "functional",
+    "description": "Optionally display live chat widget for real-time support and sales questions. Can significantly increase conversion by addressing objections immediately.",
+    "steps": [
+      "Check for live chat widget in corner of page",
+      "If present, click to open chat",
+      "Verify chat interface loads properly",
+      "Send test message",
+      "Verify message is received and response is possible"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 42
+  },
+  {
+    "id": "video-demo-embed",
+    "category": "ui",
+    "description": "Optionally embed video demo or walkthrough of ClawWrapper setup process. Video can significantly increase conversion by showing product in action.",
+    "steps": [
+      "Scan page for embedded video player",
+      "If present, verify video player loads properly",
+      "Click play button",
+      "Verify video plays smoothly without buffering",
+      "Verify video controls (pause, volume, fullscreen) work correctly"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 43
+  },
+  {
+    "id": "trust-badges-security",
+    "category": "ui",
+    "description": "Display trust badges or security indicators near payment CTA (e.g., secure checkout, money-back guarantee, SSL). Reduces purchase anxiety and increases conversion.",
+    "steps": [
+      "Navigate to pricing/CTA section",
+      "Look for trust badges or security indicators",
+      "Verify badges are relevant (secure payment, guarantee, etc.)",
+      "Verify badges are professionally designed",
+      "Verify badges do not appear fake or overused"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 44
+  },
+  {
+    "id": "gradient-background-styling",
+    "category": "ui",
+    "description": "Apply modern gradient backgrounds and visual styling throughout landing page. Creates professional, contemporary appearance that builds trust.",
+    "steps": [
+      "Review overall page design and color scheme",
+      "Verify backgrounds use gradients or modern styling",
+      "Verify color scheme is consistent throughout",
+      "Verify styling enhances rather than distracts from content",
+      "Verify page has cohesive, professional appearance"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 45
+  },
+  {
+    "id": "typography-hierarchy",
+    "category": "ui",
+    "description": "Implement clear typographic hierarchy with distinct heading sizes, weights, and spacing. Improves readability and guides user attention through content.",
+    "steps": [
+      "Review all text elements on page",
+      "Verify clear distinction between H1, H2, H3 headings",
+      "Verify body text is readable size and line height",
+      "Verify important text (pricing, CTAs) stands out",
+      "Verify typography is consistent throughout page"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 46
+  },
+  {
+    "id": "white-space-breathing-room",
+    "category": "ui",
+    "description": "Use appropriate white space and padding between sections. Prevents overwhelming users and improves content comprehension.",
+    "steps": [
+      "Scroll through entire landing page",
+      "Verify adequate spacing between major sections",
+      "Verify content does not feel cramped or cluttered",
+      "Verify spacing is consistent throughout",
+      "Verify page feels balanced and easy to scan"
+    ],
+    "priority": 3,
+    "passes": false,
+    "selected": true,
+    "order": 47
+  },
+  {
+    "id": "cta-button-contrast",
+    "category": "ui",
+    "description": "Ensure CTA buttons have high contrast with background and are immediately noticeable. Critical for conversion as buttons must stand out.",
+    "steps": [
+      "Locate all CTA buttons on page",
+      "Verify buttons have high contrast with surrounding elements",
+      "Verify button color draws attention",
+      "Verify button text is clearly readable",
+      "Verify buttons are large enough to be easily clickable"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 48
+  },
+  {
+    "id": "benefit-oriented-copy",
+    "category": "ui",
+    "description": "Ensure all copy focuses on benefits and outcomes rather than features. Helps users understand 'what's in it for me' and drives conversion.",
+    "steps": [
+      "Read through all major copy sections",
+      "Verify headlines focus on outcomes (revenue, time savings)",
+      "Verify feature descriptions explain benefits, not just capabilities",
+      "Verify copy addresses user pain points",
+      "Verify copy uses 'you' language rather than 'we' language"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 49
+  },
+  {
+    "id": "mobile-cta-sticky",
+    "category": "functional",
+    "description": "Optionally display sticky CTA button at bottom of mobile screen. Keeps purchase option always accessible on mobile devices.",
+    "steps": [
+      "Open landing page on mobile device",
+      "Scroll down the page",
+      "Verify CTA button remains visible at bottom (if implemented)",
+      "Tap sticky CTA button",
+      "Verify it initiates purchase flow"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 50
+  },
+  {
+    "id": "page-sections-anchor-navigation",
+    "category": "navigation",
+    "description": "Optionally provide anchor navigation to jump between major sections (Features, Pricing, FAQ). Improves navigation for users seeking specific information.",
+    "steps": [
+      "Check header or sidebar for section navigation",
+      "If present, verify links to major sections (Features, Pricing, FAQ)",
+      "Click a navigation link",
+      "Verify page scrolls to correct section",
+      "Verify active section is highlighted in navigation"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 51
+  }
+]
+```
+
+1. **Set up project structure** based on the boilerplate (init.sh is already provided used to run project)
+
+## Phase 2: Implement ALL Selected Features
+
+You MUST implement the following 51 features in order:
+
+1. **landing-hero-section** (ui): Display hero section with main headline 'Launch Your OpenClaw Wrapper Fast', subheadline about revenue potential ($4K-$22K/mo), and primary CTA button. This is the first impression that converts visitors into buyers by immediately communicating value.
+2. **pricing-display-hero** (ui): Show crossed-out original price ($299) with discounted price ($99) and scarcity indicator ('Only 5 spots left'). Creates urgency and perceived value to drive immediate purchase decisions.
+3. **social-proof-revenue-section** (ui): Display 'Wrappers Making Money Right Now' section with 3 real revenue examples (TrustMRR listings, $4K in 6 days, $22K+ revenue). Provides credibility and demonstrates market validation to overcome buyer skepticism.
+4. **comparison-table-scratch-vs-wrapper** (ui): Show side-by-side comparison of 'Building From Scratch' (2-4 weeks, 9 manual tasks with ✗) vs 'With ClawWrapper' (less than 1 day, 3 simple steps with ✓). Demonstrates time savings and simplicity to justify the purchase price.
+5. **pricing-section-detailed** (ui): Display detailed pricing card with 'One Price. Everything Included.' headline, $299 crossed out to $99, scarcity message, and complete feature checklist (12+ items). Final conversion point before purchase with all value props consolidated.
+6. **cta-button-pricing-section** (functional): Display prominent 'Get ClawWrapper' CTA button in pricing section that initiates purchase flow. Primary conversion action for the entire landing page.
+7. **final-cta-button** (functional): Display 'Start Building Now' CTA button in final section that initiates purchase. Captures users who scrolled through entire page and are ready to buy.
+8. **testimonial-marc-lou** (ui): Display testimonial from Marc Lou (indie hacker with $2M+ revenue) saying 'It's OpenClaw wrappers time!'. Leverages authority and credibility from successful entrepreneur to validate the opportunity.
+9. **features-grid-display** (ui): Display 'Everything You Need to Ship' section with 8 feature cards (Remote Docker Deployment, Supabase Auth, Stripe Payments, Admin Dashboard, Caddy Proxy, Telegram Bot, Brand Customization, Responsive Design). Communicates comprehensive value and reduces perceived risk.
+10. **pricing-feature-checklist** (ui): Display comprehensive checklist of included features in pricing card (source code, OAuth, Stripe, admin dashboard, Docker deployment, Caddy, Postgres, Telegram, white-label, docs, lifetime updates, unlimited products). Removes objections by showing everything included.
+11. **faq-section-display** (ui): Display 'Frequently Asked Questions' section with 8 common questions (access after purchase, what's included, developer requirements, comparison to competitors, auth methods, updates, multiple products, refund policy). Addresses objections and reduces purchase friction.
+12. **final-cta-section** (ui): Display final CTA section with 'Stop Building Infrastructure. Start Earning.' headline, reinforcement of revenue potential, pricing, scarcity, and CTA button. Last chance to convert before footer.
+13. **responsive-mobile-layout** (ui): Ensure entire landing page is responsive and mobile-optimized with proper layout adjustments for smaller screens. Critical since many users browse on mobile devices.
+14. **comparison-table-responsive** (ui): Ensure comparison table (Scratch vs ClawWrapper) is responsive and readable on mobile devices. Critical for mobile users to understand value proposition.
+15. **page-load-performance** (functional): Ensure landing page loads quickly (under 3 seconds) with optimized images and code. Critical for conversion rate and user experience.
+16. **analytics-tracking-setup** (functional): Implement analytics tracking for page views, CTA clicks, and conversion events. Essential for measuring landing page performance and optimizing conversion rate.
+17. **cta-button-contrast** (ui): Ensure CTA buttons have high contrast with background and are immediately noticeable. Critical for conversion as buttons must stand out.
+18. **benefit-oriented-copy** (ui): Ensure all copy focuses on benefits and outcomes rather than features. Helps users understand 'what's in it for me' and drives conversion.
+19. **tech-stack-badges** (ui): Display technology stack badges/logos (Next.js, React, TypeScript, Tailwind CSS, Supabase, Stripe, Docker, Caddy, Telegram, Node.js). Builds trust with technical buyers by showing modern, proven technologies.
+20. **faq-accordion-interaction** (functional): Enable accordion/expandable interaction for FAQ items so users can click to reveal answers. Improves scannability and allows users to find specific information quickly.
+21. **footer-navigation** (navigation): Display footer with ClawWrapper branding, legal links (Terms, Privacy, License), support link, and product information. Provides necessary legal/support access and reinforces brand.
+22. **openclaw-use-cases-carousel** (ui): Display 'What can OpenClaw do for you?' section with scrolling/animated carousel of use cases (email management, scheduling, document summarization, expense tracking, etc.). Demonstrates product versatility and helps users envision applications.
+23. **use-cases-categories** (ui): Display categorized use cases across different domains: productivity (email, meetings, documents), finance (taxes, expenses, subscriptions), shopping (coupons, price alerts), business (contracts, invoices, leads), and personal (travel, recipes, goals). Shows breadth of application.
+24. **contact-support-link** (navigation): Display 'Contact Support' link in footer and SimpleClaw section. Provides customer support access for pre-sale questions and post-purchase help.
+25. **sticky-header-navigation** (navigation): Display sticky header with ClawWrapper logo/branding and navigation (if applicable). Provides consistent branding and navigation access as users scroll.
+26. **meta-tags-seo** (ui): Include proper meta tags (title, description, OG tags) for SEO and social sharing. Ensures landing page appears correctly when shared and ranks in search.
+27. **cta-button-hover-states** (ui): Display hover and active states for all CTA buttons (Get ClawWrapper, Start Building Now) with visual feedback. Improves usability and indicates interactivity.
+28. **external-link-trust-indicators** (ui): Display trust indicators for external links (TrustMRR, revenue screenshots) with proper attribution. Builds credibility by showing real, verifiable data sources.
+29. **feature-card-icons** (ui): Display relevant icons or illustrations for each feature card (Docker icon for deployment, lock for auth, credit card for payments, etc.). Improves scannability and visual appeal.
+30. **pricing-card-shadow-highlight** (ui): Display pricing card with visual emphasis (shadow, border, highlight) to draw attention. Makes the purchase decision point stand out from surrounding content.
+31. **feature-list-checkmarks** (ui): Display checkmarks (✓) for all included features in pricing section and comparison table. Visual indicator of what's included vs excluded.
+32. **gradient-background-styling** (ui): Apply modern gradient backgrounds and visual styling throughout landing page. Creates professional, contemporary appearance that builds trust.
+33. **typography-hierarchy** (ui): Implement clear typographic hierarchy with distinct heading sizes, weights, and spacing. Improves readability and guides user attention through content.
+34. **white-space-breathing-room** (ui): Use appropriate white space and padding between sections. Prevents overwhelming users and improves content comprehension.
+35. **simpleclaw-comparison-section** (ui): Display SimpleClaw.com promotional section showing 'Deploy OpenClaw under 1 minute' with comparison table (Traditional 60 min vs SimpleClaw <1 min). This appears to be a related product showcase demonstrating the wrapper's value proposition.
+36. **natural-language-customization-note** (ui): Display note 'PS. You can add as many use cases as you want via natural language' below use cases. Highlights flexibility and ease of customization for buyers.
+37. **creator-attribution** (ui): Display 'Built with ❤️ by Savio Martin' attribution with link to creator. Adds personal touch and credibility, allows users to research creator.
+38. **smooth-scroll-anchors** (functional): Enable smooth scrolling to section anchors when users click navigation links or CTA buttons. Improves user experience and page flow.
+39. **loading-states-images** (ui): Display loading states or placeholders for images (screenshots, logos, testimonials) while they load. Prevents layout shift and improves perceived performance.
+40. **testimonial-avatar-image** (ui): Display avatar/profile image for Marc Lou testimonial. Adds authenticity and human element to social proof.
+41. **revenue-screenshot-lightbox** (functional): Enable click-to-enlarge functionality for revenue screenshots so users can see details. Builds trust by allowing verification of proof.
+42. **video-demo-embed** (ui): Optionally embed video demo or walkthrough of ClawWrapper setup process. Video can significantly increase conversion by showing product in action.
+43. **trust-badges-security** (ui): Display trust badges or security indicators near payment CTA (e.g., secure checkout, money-back guarantee, SSL). Reduces purchase anxiety and increases conversion.
+44. **mobile-cta-sticky** (functional): Optionally display sticky CTA button at bottom of mobile screen. Keeps purchase option always accessible on mobile devices.
+45. **page-sections-anchor-navigation** (navigation): Optionally provide anchor navigation to jump between major sections (Features, Pricing, FAQ). Improves navigation for users seeking specific information.
+46. **favicon-display** (ui): Display favicon in browser tab for brand recognition. Small but important detail for professional appearance.
+47. **scarcity-timer-countdown** (functional): Optionally display countdown timer or dynamic scarcity indicator for 'Only 5 spots left' message. Increases urgency and conversion rate (if implemented).
+48. **email-capture-optional** (functional): Optionally display email capture form for users not ready to buy. Allows follow-up marketing to recover potential customers.
+49. **exit-intent-popup** (functional): Optionally display exit-intent popup with special offer or email capture when user attempts to leave. Can recover abandoning visitors.
+50. **social-share-buttons** (functional): Optionally display social share buttons for users to share landing page. Enables word-of-mouth marketing and viral growth.
+51. **live-chat-widget** (functional): Optionally display live chat widget for real-time support and sales questions. Can significantly increase conversion by addressing objections immediately.
+
+### Implementation Order (Frontend First)
+For each feature, follow this exact order to create early user-visible impact:
+1. **UI First**: Build screens/components with mock data and polished styling.
+2. **Types Second**: Add/adjust shared types/interfaces used by the UI and API.
+3. **Backend Last**: Implement API/database changes and wire the UI to real data.
+
+### Implementation Rules
+- Implement each feature fully with proper error handling
+- After implementing each feature, use Playwright MCP to browser test it before marking as complete
+- Navigate to the preview, interact with the feature, and verify it works correctly
+- After implementing each feature, update /app/feature_list.json to set "passes": true for that feature
+- After marking a feature complete in /app/feature_list.json, call the update_feature_progress tool with the featureId to notify the UI immediately (the user will see real-time progress)
+- Use proper TypeScript types throughout
+- Follow React best practices
+- When adding a new library, ALWAYS run `npm install <package-name>` in the correct directory BEFORE using it:
+  - Frontend: `cd /app/vitereact && npm install <package-name>`
+  - Backend: `cd /app/backend && npm install <package-name>`
+- If backend behavior is failing or unclear, inspect backend server logs and test affected APIs with `curl` against localhost before/after changes
+
+### Feature Progress Tracking (CRITICAL)
+You MUST update /app/feature_list.json to track progress as you work on each feature:
+
+1. **Before starting a feature**: Update /app/feature_list.json to set `"status": "in_progress"` for that feature
+2. **After completing a feature**: Update /app/feature_list.json to set `"status": "completed"` AND `"passes": true`
+3. **If a feature fails**: Update /app/feature_list.json to set `"status": "failed"` AND add `"errorMessage": "description of what failed"`
+
+Example of updating /app/feature_list.json:
+```javascript
+// Read the current feature list
+const features = JSON.parse(fs.readFileSync('/app/feature_list.json', 'utf8'));
+
+// Find and update the feature you're working on
+const idx = features.findIndex(f => f.id === 'the-feature-id');
+features[idx] = {
+  ...features[idx],
+  status: 'completed',  // Use 'in_progress', 'completed', or 'failed'
+  passes: true,         // Set to true only when feature is fully working
+  completedAt: new Date().toISOString()
+};
+
+// Write back IMMEDIATELY after each feature
+fs.writeFileSync('/app/feature_list.json', JSON.stringify(features, null, 2));
+```
+
+**IMPORTANT**: Update /app/feature_list.json IMMEDIATELY after completing each feature. This enables real-time progress tracking in the UI so the user can see your progress.
+
+## Phase 3: Finalize
+- Initialize the database
+- Create progress log
+
+## Phase 4: Verify Code Quality (REQUIRED)
+
+Before marking any feature as complete, you MUST run these verification commands:
+
+1. **TypeScript Check** - Run in both frontend and backend:
+```bash
+cd /app/vitereact && npx tsc -b
+cd /app/backend && npx tsc -b
+```
+Fix ALL type errors before proceeding.
+
+2. **Lint Check** - Run in frontend:
+```bash
+cd /app/vitereact && npm run lint
+```
+Fix ALL lint errors before proceeding.
+
+3. **Build Check** - Verify production build succeeds:
+```bash
+cd /app/vitereact && npm run build
+```
+Fix ALL build errors before proceeding.
+
+Only after ALL verification steps pass can you mark features as "passes": true in feature_list.json.
+
+## Backend Connection (CRITICAL)
+
+### ⚠️ CRITICAL CONSTRAINTS - DO NOT VIOLATE
+- **DO NOT** remove the environment variable check from API URL configuration
+- **DO NOT** replace `import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000'` with just `'http://localhost:3000'`
+- **ALWAYS** preserve the full pattern: environment variable with localhost fallback
+
+**WHY**:
+- The environment variable contains the tunnel URL for external access (user viewing the app)
+- The localhost fallback is needed for internal sandbox communication
+- Both parts are required. Removing the env var breaks external access.
+
+### Required Pattern (NEVER MODIFY)
+```typescript
+// ✅ CORRECT - Always use this pattern
+const API_BASE_URL = import.meta.env.VITE_API_BASE_URL || 'http://localhost:3000';
+
+// Then use API_BASE_URL for all fetch calls
+fetch(`${API_BASE_URL}/api/users`)
+```
+
+### ❌ WRONG - Never do this
+```typescript
+// ❌ WRONG - Missing env var, breaks external access
+const API_BASE_URL = 'http://localhost:3000';
+
+// ❌ WRONG - Hardcoded in fetch call
+fetch('http://localhost:3000/api/users')
+```
+
+### How It Works
+- **Inside sandbox**: `VITE_API_BASE_URL` may be unset → falls back to `localhost:3000` → works
+- **External access**: `VITE_API_BASE_URL` is set to tunnel URL → uses tunnel → works
+- **VITE_API_BASE_URL** is automatically injected into `/app/vitereact/.env` when tunnel is created
+
+
+## AI Integration (LaunchPulse AI Proxy)
+
+This project has AI integration enabled. Use the LaunchPulse AI wrapper for all AI/LLM operations.
+
+### ⚠️ CRITICAL CONSTRAINTS - DO NOT VIOLATE
+- **DO NOT** run `npm install openai` or any AI SDK
+- **DO NOT** add OPENAI_API_KEY or any AI provider keys to .env
+
+**WHY**: AI is ALREADY configured through LaunchPulse proxy.
+
+### Available AI Components
+- **./__create/ai** - OpenAI-compatible API wrapper
+- **./hooks/useAI** - Hooks: `useChat()` and `useAsk()`
+
+### Usage
+```typescript
+import { ai } from './__create/ai';
+const answer = await ai.ask('Question here');
+
+import { useChat } from './hooks/useAI';
+const { messages, send } = useChat();
+```
+
+### Vision/Image Analysis Usage
+```typescript
+import { ai } from './__create/ai';
+
+// Analyze a hosted image URL
+const analysisFromUrl = await ai.vision.analyzeImage({
+  prompt: 'Estimate calories and macros from this meal photo.',
+  imageUrl: 'https://example.com/meal.jpg',
+});
+
+// Analyze a base64 image (captured from camera/gallery)
+const analysisFromBase64 = await ai.vision.analyzeImage({
+  prompt: 'Identify foods and estimate calories.',
+  imageBase64: base64ImageData,
+  mimeType: 'image/jpeg',
+});
+```
+
+### Environment Variables (Auto-Injected)
+- `VITE_LAUNCHPULSE_AI_KEY`
+- `VITE_LAUNCHPULSE_PROJECT_ID`
+- `VITE_LAUNCHPULSE_API_URL`
+
+
+## Database Integration (PostgreSQL via OpenCode Tools)
+
+This project has a PostgreSQL database connected. You have access to database tools:
+
+### Available Database Tools
+- **query_database** - Execute SQL queries (SELECT, INSERT, UPDATE, DELETE). Returns rows and row count.
+- **list_tables** - List all tables in the public schema
+- **describe_table** - Get column information for a specific table (name, type, nullable, default)
+
+### Usage Examples
+```
+// List all tables
+Use the list_tables tool
+
+// Describe a table
+Use the describe_table tool with table_name: "users"
+
+// Run a query
+Use the query_database tool with sql: "SELECT * FROM users LIMIT 5"
+```
+
+### Database Info
+- Database: app_i_need_you_to_create_a_beautiful_1770939724128
+- Host: ep-raspy-darkness-a4ih3t0a.us-east-1.aws.neon.tech
+
+### Schema & Initialization (Generated Apps)
+- Schema file (from backend boilerplate): `/app/backend/db.sql`
+- Apply schema: `cd /app/backend && node initdb.js` (uses DATABASE_URL)
+- Add queries/endpoints in `/app/backend/server.ts` using the existing `pool` from `pg`
+
+### ⚠️ IMPORTANT
+- Always use parameterized queries for user input to prevent SQL injection
+- The database connection uses the project's DATABASE_URL (already configured)
+- These tools connect directly to the user's Neon PostgreSQL database

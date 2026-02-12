@@ -1,0 +1,860 @@
+[
+  {
+    "id": "landing-hero-section",
+    "category": "ui",
+    "description": "Display hero section with main headline 'Launch Your OpenClaw Wrapper Fast', subheadline about revenue potential ($4K-$22K/mo), and primary CTA button. This is the first impression that converts visitors into buyers by immediately communicating value.",
+    "steps": [
+      "Navigate to landing page root URL",
+      "Verify headline 'Launch Your OpenClaw Wrapper Fast' is prominently displayed",
+      "Verify subheadline mentions $4K-$22K/mo revenue range",
+      "Verify 'Get ClawWrapper' CTA button is visible with pricing ($299 crossed out, $99 shown)",
+      "Verify scarcity message 'Only 5 spots left at this price' is displayed"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 1,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "pricing-display-hero",
+    "category": "ui",
+    "description": "Show crossed-out original price ($299) with discounted price ($99) and scarcity indicator ('Only 5 spots left'). Creates urgency and perceived value to drive immediate purchase decisions.",
+    "steps": [
+      "Locate pricing section in hero area",
+      "Verify $299 is displayed with strikethrough styling",
+      "Verify $99 is prominently displayed as current price",
+      "Verify 'Only 5 spots left at this price' scarcity message is visible",
+      "Verify 'Pay once. Full source code included.' benefit text is shown"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 2,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "social-proof-revenue-section",
+    "category": "ui",
+    "description": "Display 'Wrappers Making Money Right Now' section with 3 real revenue examples (TrustMRR listings, $4K in 6 days, $22K+ revenue). Provides credibility and demonstrates market validation to overcome buyer skepticism.",
+    "steps": [
+      "Scroll to social proof section",
+      "Verify section header 'Wrappers Making Money Right Now' is displayed",
+      "Verify TrustMRR marketplace screenshot showing $4K-$22K/mo is visible",
+      "Verify dashboard screenshot showing '$4K in 6 days' with 91 subscriptions is visible",
+      "Verify SimpleClaw revenue dashboard showing $22K+ total revenue is visible"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 3,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "testimonial-marc-lou",
+    "category": "ui",
+    "description": "Display testimonial from Marc Lou (indie hacker with $2M+ revenue) saying 'It's OpenClaw wrappers time!'. Leverages authority and credibility from successful entrepreneur to validate the opportunity.",
+    "steps": [
+      "Locate testimonial section",
+      "Verify Marc Lou's quote 'It's OpenClaw wrappers time!' is displayed",
+      "Verify Marc Lou's name and title are shown",
+      "Verify credential 'Indie hacker, $2M+ in revenue from solo products' is visible",
+      "Verify profile image or avatar is displayed"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 4,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "comparison-table-scratch-vs-wrapper",
+    "category": "ui",
+    "description": "Show side-by-side comparison of 'Building From Scratch' (2-4 weeks, 9 manual tasks with ✗) vs 'With ClawWrapper' (less than 1 day, 3 simple steps with ✓). Demonstrates time savings and simplicity to justify the purchase price.",
+    "steps": [
+      "Scroll to comparison section with header 'Weeks of Work, or Hours with ClawWrapper'",
+      "Verify left column shows 'Building From Scratch' with '2–4 weeks of work' timeframe",
+      "Verify 9 tasks are listed with ✗ icons (OAuth, Stripe, Docker, etc.)",
+      "Verify right column shows 'With ClawWrapper' with 'Less than 1 day' timeframe",
+      "Verify 3 simple steps are listed with ✓ icons and final outcome section"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 5,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "features-grid-display",
+    "category": "ui",
+    "description": "Display 'Everything You Need to Ship' section with 8 feature cards (Remote Docker Deployment, Supabase Auth, Stripe Payments, Admin Dashboard, Caddy Proxy, Telegram Bot, Brand Customization, Responsive Design). Communicates comprehensive value and reduces perceived risk.",
+    "steps": [
+      "Scroll to features section with header 'Everything You Need to Ship'",
+      "Verify 8 feature cards are displayed in a grid layout",
+      "Verify each card has a title, description, and relevant icon/visual",
+      "Verify features include: Remote Docker Deployment, Supabase Auth & Database, Stripe Payments, Admin Dashboard",
+      "Verify additional features: Caddy Reverse Proxy, Telegram Bot Integration, Full Brand Customization, Responsive & Server-Rendered"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 6,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "tech-stack-badges",
+    "category": "ui",
+    "description": "Display technology stack badges/logos (Next.js, React, TypeScript, Tailwind CSS, Supabase, Stripe, Docker, Caddy, Telegram, Node.js). Builds trust with technical buyers by showing modern, proven technologies.",
+    "steps": [
+      "Locate 'Built with' section below features",
+      "Verify all 10 technology logos/badges are displayed",
+      "Verify logos include: Next.js, React, TypeScript, Tailwind CSS, Supabase",
+      "Verify logos include: Stripe, Docker, Caddy, Telegram, Node.js",
+      "Verify logos are properly sized and aligned"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 7,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "pricing-section-detailed",
+    "category": "ui",
+    "description": "Display detailed pricing card with 'One Price. Everything Included.' headline, $299 crossed out to $99, scarcity message, and complete feature checklist (12+ items). Final conversion point before purchase with all value props consolidated.",
+    "steps": [
+      "Scroll to main pricing section with header 'One Price. Everything Included.'",
+      "Verify 'Early-bird: only 5 spots at this price' urgency message is shown",
+      "Verify pricing shows $299 crossed out and $99 as current price",
+      "Verify 'One-time payment' is clearly stated",
+      "Verify complete feature checklist with 12+ items is displayed with checkmarks"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 8,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "pricing-feature-checklist",
+    "category": "ui",
+    "description": "Display comprehensive checklist of included features in pricing card (source code, OAuth, Stripe, admin dashboard, Docker deployment, Caddy, Postgres, Telegram, white-label, docs, lifetime updates, unlimited products). Removes objections by showing everything included.",
+    "steps": [
+      "Locate feature checklist within pricing card",
+      "Verify 'Full Next.js + TypeScript source code (strict mode)' is listed",
+      "Verify authentication, payment, and deployment features are listed",
+      "Verify 'Lifetime updates, no subscription' is included",
+      "Verify 'Unlimited products, clone for each brand' is the final item"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 9,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "cta-button-pricing-section",
+    "category": "functional",
+    "description": "Display prominent 'Get ClawWrapper' CTA button in pricing section that initiates purchase flow. Primary conversion action for the entire landing page.",
+    "steps": [
+      "Locate 'Get ClawWrapper' button in pricing section",
+      "Verify button is prominently styled and easily clickable",
+      "Verify button displays current price ($99)",
+      "Click button and verify it initiates checkout or purchase flow",
+      "Verify button has appropriate hover/active states"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 10,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "faq-section-display",
+    "category": "ui",
+    "description": "Display 'Frequently Asked Questions' section with 8 common questions (access after purchase, what's included, developer requirements, comparison to competitors, auth methods, updates, multiple products, refund policy). Addresses objections and reduces purchase friction.",
+    "steps": [
+      "Scroll to FAQ section with header 'Frequently Asked Questions'",
+      "Verify section subtitle 'Everything you need to know before you buy.' is shown",
+      "Verify 8 FAQ questions are listed",
+      "Verify questions cover: access, contents, technical requirements, differentiation",
+      "Verify questions cover: auth methods, updates, multiple products, refunds"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 11,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "faq-accordion-interaction",
+    "category": "functional",
+    "description": "Enable accordion/expandable interaction for FAQ items so users can click to reveal answers. Improves scannability and allows users to find specific information quickly.",
+    "steps": [
+      "Navigate to FAQ section",
+      "Click on first FAQ question",
+      "Verify answer expands/reveals below the question",
+      "Click on another FAQ question",
+      "Verify previous answer collapses and new answer expands (or both remain open depending on design)"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 12,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "final-cta-section",
+    "category": "ui",
+    "description": "Display final CTA section with 'Stop Building Infrastructure. Start Earning.' headline, reinforcement of revenue potential, pricing, scarcity, and CTA button. Last chance to convert before footer.",
+    "steps": [
+      "Scroll to final CTA section near page bottom",
+      "Verify headline 'Stop Building Infrastructure. Start Earning.' is displayed",
+      "Verify copy mentions '$4K-$22K/mo' revenue examples",
+      "Verify pricing shows $299 crossed out to $99",
+      "Verify 'Only 5 spots left at early-bird pricing. Then it's $299.' urgency message is shown"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 13,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "final-cta-button",
+    "category": "functional",
+    "description": "Display 'Start Building Now' CTA button in final section that initiates purchase. Captures users who scrolled through entire page and are ready to buy.",
+    "steps": [
+      "Locate 'Start Building Now' button in final CTA section",
+      "Verify button shows pricing ($299 crossed out, $99 shown)",
+      "Verify button is prominently styled",
+      "Click button and verify it initiates checkout flow",
+      "Verify button has appropriate hover/active states"
+    ],
+    "priority": 1,
+    "passes": true,
+    "selected": true,
+    "order": 14,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "footer-navigation",
+    "category": "navigation",
+    "description": "Display footer with ClawWrapper branding, legal links (Terms, Privacy, License), support link, and product information. Provides necessary legal/support access and reinforces brand.",
+    "steps": [
+      "Scroll to page footer",
+      "Verify 'ClawWrapper' branding is displayed",
+      "Verify links to Terms, Privacy, License, and Support are present",
+      "Click each link and verify it navigates to appropriate page",
+      "Verify footer has appropriate styling and layout"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 15,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "simpleclaw-comparison-section",
+    "category": "ui",
+    "description": "Display SimpleClaw.com promotional section showing 'Deploy OpenClaw under 1 minute' with comparison table (Traditional 60 min vs SimpleClaw <1 min). This appears to be a related product showcase demonstrating the wrapper's value proposition.",
+    "steps": [
+      "Scroll to SimpleClaw comparison section",
+      "Verify headline 'Deploy OpenClaw under 1 minute' is displayed",
+      "Verify comparison table shows Traditional method (60 min total) vs SimpleClaw (<1 min)",
+      "Verify Traditional column lists 8 steps with time estimates",
+      "Verify SimpleClaw column shows simplified process"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 16,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "openclaw-use-cases-carousel",
+    "category": "ui",
+    "description": "Display 'What can OpenClaw do for you?' section with scrolling/animated carousel of use cases (email management, scheduling, document summarization, expense tracking, etc.). Demonstrates product versatility and helps users envision applications.",
+    "steps": [
+      "Scroll to use cases section with header 'What can OpenClaw do for you?'",
+      "Verify subtitle 'One assistant, thousands of use cases' is displayed",
+      "Verify multiple use case items are displayed in a grid or carousel",
+      "Verify use cases include: email management, scheduling, document tasks, financial tasks",
+      "Verify animation or scrolling effect is present (if applicable)"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 17,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "use-cases-categories",
+    "category": "ui",
+    "description": "Display categorized use cases across different domains: productivity (email, meetings, documents), finance (taxes, expenses, subscriptions), shopping (coupons, price alerts), business (contracts, invoices, leads), and personal (travel, recipes, goals). Shows breadth of application.",
+    "steps": [
+      "Review all use case items in the section",
+      "Verify productivity use cases: email summarization, meeting scheduling, document summarization",
+      "Verify finance use cases: tax help, expense tracking, subscription management",
+      "Verify shopping use cases: coupon finding, price alerts, product comparison",
+      "Verify business and personal use cases are represented"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 18,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "natural-language-customization-note",
+    "category": "ui",
+    "description": "Display note 'PS. You can add as many use cases as you want via natural language' below use cases. Highlights flexibility and ease of customization for buyers.",
+    "steps": [
+      "Scroll to bottom of use cases section",
+      "Verify PS note about natural language customization is displayed",
+      "Verify text reads 'PS. You can add as many use cases as you want via natural language'",
+      "Verify note is styled distinctly (e.g., italics, different color)",
+      "Verify note is positioned after all use case items"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 19,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "creator-attribution",
+    "category": "ui",
+    "description": "Display 'Built with ❤️ by Savio Martin' attribution with link to creator. Adds personal touch and credibility, allows users to research creator.",
+    "steps": [
+      "Scroll to footer or bottom section",
+      "Verify 'Built with ❤️ by' text is displayed",
+      "Verify 'Savio Martin' name is shown",
+      "Verify name is clickable/linked",
+      "Click name and verify it navigates to creator profile or website"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 20,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "contact-support-link",
+    "category": "navigation",
+    "description": "Display 'Contact Support' link in footer and SimpleClaw section. Provides customer support access for pre-sale questions and post-purchase help.",
+    "steps": [
+      "Locate 'Contact Support' link in footer",
+      "Verify link is clearly visible and styled",
+      "Click link and verify it opens email client or support form",
+      "Verify link appears in multiple locations if applicable",
+      "Verify link has appropriate hover state"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 21,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "responsive-mobile-layout",
+    "category": "ui",
+    "description": "Ensure entire landing page is responsive and mobile-optimized with proper layout adjustments for smaller screens. Critical since many users browse on mobile devices.",
+    "steps": [
+      "Open landing page on mobile device or resize browser to mobile width",
+      "Verify hero section stacks vertically and remains readable",
+      "Verify comparison table adapts to mobile layout",
+      "Verify feature cards stack appropriately",
+      "Verify all CTA buttons remain accessible and tappable"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 22,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "sticky-header-navigation",
+    "category": "navigation",
+    "description": "Display sticky header with ClawWrapper logo/branding and navigation (if applicable). Provides consistent branding and navigation access as users scroll.",
+    "steps": [
+      "Load landing page",
+      "Verify header with ClawWrapper branding is visible at top",
+      "Scroll down the page",
+      "Verify header remains visible (sticky) or scrolls naturally based on design",
+      "Verify header contains logo and any navigation elements"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 23,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "smooth-scroll-anchors",
+    "category": "functional",
+    "description": "Enable smooth scrolling to section anchors when users click navigation links or CTA buttons. Improves user experience and page flow.",
+    "steps": [
+      "Identify any anchor links in navigation or page",
+      "Click an anchor link (e.g., to pricing section)",
+      "Verify page smoothly scrolls to target section",
+      "Verify scroll animation is not jarring",
+      "Verify target section is properly positioned after scroll"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 24,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "loading-states-images",
+    "category": "ui",
+    "description": "Display loading states or placeholders for images (screenshots, logos, testimonials) while they load. Prevents layout shift and improves perceived performance.",
+    "steps": [
+      "Load landing page with throttled network speed",
+      "Verify placeholder or skeleton screens appear for images",
+      "Wait for images to load",
+      "Verify images replace placeholders smoothly",
+      "Verify no significant layout shift occurs"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 25,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "meta-tags-seo",
+    "category": "ui",
+    "description": "Include proper meta tags (title, description, OG tags) for SEO and social sharing. Ensures landing page appears correctly when shared and ranks in search.",
+    "steps": [
+      "View page source or inspect head element",
+      "Verify title tag contains relevant keywords (e.g., 'ClawWrapper - Launch Your OpenClaw Wrapper Fast')",
+      "Verify meta description is present and compelling",
+      "Verify Open Graph tags (og:title, og:description, og:image) are present",
+      "Share URL on social media and verify preview appears correctly"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 26,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "favicon-display",
+    "category": "ui",
+    "description": "Display favicon in browser tab for brand recognition. Small but important detail for professional appearance.",
+    "steps": [
+      "Open landing page in browser",
+      "Verify favicon appears in browser tab",
+      "Verify favicon is clear and recognizable",
+      "Open multiple tabs and verify favicon helps identify the page",
+      "Verify favicon loads quickly"
+    ],
+    "priority": 5,
+    "passes": true,
+    "selected": true,
+    "order": 27,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "cta-button-hover-states",
+    "category": "ui",
+    "description": "Display hover and active states for all CTA buttons (Get ClawWrapper, Start Building Now) with visual feedback. Improves usability and indicates interactivity.",
+    "steps": [
+      "Locate primary CTA button",
+      "Hover mouse over button",
+      "Verify button changes appearance (color, shadow, scale, etc.)",
+      "Click and hold button",
+      "Verify active state is visually distinct from hover state"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 28,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "scarcity-timer-countdown",
+    "category": "functional",
+    "description": "Optionally display countdown timer or dynamic scarcity indicator for 'Only 5 spots left' message. Increases urgency and conversion rate (if implemented).",
+    "steps": [
+      "Locate scarcity message 'Only 5 spots left'",
+      "Check if countdown timer or dynamic counter is present",
+      "If present, verify timer counts down in real-time",
+      "Refresh page and verify timer persists or resets appropriately",
+      "Verify timer creates sense of urgency without being misleading"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 29
+  },
+  {
+    "id": "external-link-trust-indicators",
+    "category": "ui",
+    "description": "Display trust indicators for external links (TrustMRR, revenue screenshots) with proper attribution. Builds credibility by showing real, verifiable data sources.",
+    "steps": [
+      "Locate revenue proof screenshots (TrustMRR, dashboard images)",
+      "Verify screenshots are high quality and readable",
+      "Verify captions or labels clearly explain what each screenshot shows",
+      "If links are present, verify they open in new tab",
+      "Verify screenshots appear authentic and unmanipulated"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 30,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "feature-card-icons",
+    "category": "ui",
+    "description": "Display relevant icons or illustrations for each feature card (Docker icon for deployment, lock for auth, credit card for payments, etc.). Improves scannability and visual appeal.",
+    "steps": [
+      "Navigate to 'Everything You Need to Ship' section",
+      "Verify each of 8 feature cards has a relevant icon or illustration",
+      "Verify icons are consistent in style and size",
+      "Verify icons accurately represent their associated features",
+      "Verify icons enhance rather than distract from content"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 31,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "comparison-table-responsive",
+    "category": "ui",
+    "description": "Ensure comparison table (Scratch vs ClawWrapper) is responsive and readable on mobile devices. Critical for mobile users to understand value proposition.",
+    "steps": [
+      "Open landing page on mobile device or narrow browser window",
+      "Navigate to comparison section",
+      "Verify table adapts to mobile layout (stacks vertically or scrolls horizontally)",
+      "Verify all text remains readable",
+      "Verify checkmarks and X marks are clearly visible"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 32,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "pricing-card-shadow-highlight",
+    "category": "ui",
+    "description": "Display pricing card with visual emphasis (shadow, border, highlight) to draw attention. Makes the purchase decision point stand out from surrounding content.",
+    "steps": [
+      "Navigate to pricing section",
+      "Verify pricing card has visual emphasis (shadow, border, background color)",
+      "Verify card stands out from surrounding content",
+      "Verify emphasis is not overwhelming or garish",
+      "Compare to other page elements and confirm pricing card is most prominent"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 33,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "testimonial-avatar-image",
+    "category": "ui",
+    "description": "Display avatar/profile image for Marc Lou testimonial. Adds authenticity and human element to social proof.",
+    "steps": [
+      "Navigate to Marc Lou testimonial section",
+      "Verify profile image or avatar is displayed",
+      "Verify image is high quality and professional",
+      "Verify image is properly sized and positioned",
+      "Verify image loads quickly"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 34,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "revenue-screenshot-lightbox",
+    "category": "functional",
+    "description": "Enable click-to-enlarge functionality for revenue screenshots so users can see details. Builds trust by allowing verification of proof.",
+    "steps": [
+      "Locate revenue proof screenshots",
+      "Click on a screenshot",
+      "Verify screenshot opens in lightbox or modal at larger size",
+      "Verify enlarged image is clear and readable",
+      "Verify user can close lightbox and return to page"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 35,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "feature-list-checkmarks",
+    "category": "ui",
+    "description": "Display checkmarks (✓) for all included features in pricing section and comparison table. Visual indicator of what's included vs excluded.",
+    "steps": [
+      "Navigate to pricing feature list",
+      "Verify each feature has a checkmark icon",
+      "Verify checkmarks are consistent in style and color",
+      "Navigate to comparison table",
+      "Verify 'With ClawWrapper' column uses checkmarks while 'From Scratch' uses X marks"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 36,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "page-load-performance",
+    "category": "functional",
+    "description": "Ensure landing page loads quickly (under 3 seconds) with optimized images and code. Critical for conversion rate and user experience.",
+    "steps": [
+      "Open landing page with network throttling disabled",
+      "Measure time to first contentful paint",
+      "Verify page loads in under 3 seconds",
+      "Verify images are optimized and lazy-loaded where appropriate",
+      "Verify no blocking resources delay initial render"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 37
+  },
+  {
+    "id": "analytics-tracking-setup",
+    "category": "functional",
+    "description": "Implement analytics tracking for page views, CTA clicks, and conversion events. Essential for measuring landing page performance and optimizing conversion rate.",
+    "steps": [
+      "Verify analytics script is present in page source",
+      "Navigate through landing page",
+      "Click on CTA buttons",
+      "Verify events are tracked in analytics dashboard",
+      "Verify tracking does not slow down page load"
+    ],
+    "priority": 2,
+    "passes": false,
+    "selected": true,
+    "order": 38
+  },
+  {
+    "id": "email-capture-optional",
+    "category": "functional",
+    "description": "Optionally display email capture form for users not ready to buy. Allows follow-up marketing to recover potential customers.",
+    "steps": [
+      "Scan page for email capture form or newsletter signup",
+      "If present, verify form is clearly labeled",
+      "Enter test email address",
+      "Submit form and verify success message",
+      "Verify email is captured in marketing system"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 39
+  },
+  {
+    "id": "exit-intent-popup",
+    "category": "functional",
+    "description": "Optionally display exit-intent popup with special offer or email capture when user attempts to leave. Can recover abandoning visitors.",
+    "steps": [
+      "Navigate to landing page",
+      "Move mouse cursor toward browser close button or back button",
+      "Verify exit-intent popup appears (if implemented)",
+      "Verify popup offers value (discount, email capture, etc.)",
+      "Verify popup can be easily dismissed"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 40
+  },
+  {
+    "id": "social-share-buttons",
+    "category": "functional",
+    "description": "Optionally display social share buttons for users to share landing page. Enables word-of-mouth marketing and viral growth.",
+    "steps": [
+      "Scan page for social share buttons",
+      "If present, verify buttons for major platforms (Twitter, LinkedIn, Facebook)",
+      "Click a share button",
+      "Verify it opens share dialog with pre-populated text",
+      "Verify shared link includes proper OG tags"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 41
+  },
+  {
+    "id": "live-chat-widget",
+    "category": "functional",
+    "description": "Optionally display live chat widget for real-time support and sales questions. Can significantly increase conversion by addressing objections immediately.",
+    "steps": [
+      "Check for live chat widget in corner of page",
+      "If present, click to open chat",
+      "Verify chat interface loads properly",
+      "Send test message",
+      "Verify message is received and response is possible"
+    ],
+    "priority": 5,
+    "passes": false,
+    "selected": true,
+    "order": 42
+  },
+  {
+    "id": "video-demo-embed",
+    "category": "ui",
+    "description": "Optionally embed video demo or walkthrough of ClawWrapper setup process. Video can significantly increase conversion by showing product in action.",
+    "steps": [
+      "Scan page for embedded video player",
+      "If present, verify video player loads properly",
+      "Click play button",
+      "Verify video plays smoothly without buffering",
+      "Verify video controls (pause, volume, fullscreen) work correctly"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 43
+  },
+  {
+    "id": "trust-badges-security",
+    "category": "ui",
+    "description": "Display trust badges or security indicators near payment CTA (e.g., secure checkout, money-back guarantee, SSL). Reduces purchase anxiety and increases conversion.",
+    "steps": [
+      "Navigate to pricing/CTA section",
+      "Look for trust badges or security indicators",
+      "Verify badges are relevant (secure payment, guarantee, etc.)",
+      "Verify badges are professionally designed",
+      "Verify badges do not appear fake or overused"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 44,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "gradient-background-styling",
+    "category": "ui",
+    "description": "Apply modern gradient backgrounds and visual styling throughout landing page. Creates professional, contemporary appearance that builds trust.",
+    "steps": [
+      "Review overall page design and color scheme",
+      "Verify backgrounds use gradients or modern styling",
+      "Verify color scheme is consistent throughout",
+      "Verify styling enhances rather than distracts from content",
+      "Verify page has cohesive, professional appearance"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 45,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "typography-hierarchy",
+    "category": "ui",
+    "description": "Implement clear typographic hierarchy with distinct heading sizes, weights, and spacing. Improves readability and guides user attention through content.",
+    "steps": [
+      "Review all text elements on page",
+      "Verify clear distinction between H1, H2, H3 headings",
+      "Verify body text is readable size and line height",
+      "Verify important text (pricing, CTAs) stands out",
+      "Verify typography is consistent throughout page"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 46,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "white-space-breathing-room",
+    "category": "ui",
+    "description": "Use appropriate white space and padding between sections. Prevents overwhelming users and improves content comprehension.",
+    "steps": [
+      "Scroll through entire landing page",
+      "Verify adequate spacing between major sections",
+      "Verify content does not feel cramped or cluttered",
+      "Verify spacing is consistent throughout",
+      "Verify page feels balanced and easy to scan"
+    ],
+    "priority": 3,
+    "passes": true,
+    "selected": true,
+    "order": 47,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "cta-button-contrast",
+    "category": "ui",
+    "description": "Ensure CTA buttons have high contrast with background and are immediately noticeable. Critical for conversion as buttons must stand out.",
+    "steps": [
+      "Locate all CTA buttons on page",
+      "Verify buttons have high contrast with surrounding elements",
+      "Verify button color draws attention",
+      "Verify button text is clearly readable",
+      "Verify buttons are large enough to be easily clickable"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 48,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "benefit-oriented-copy",
+    "category": "ui",
+    "description": "Ensure all copy focuses on benefits and outcomes rather than features. Helps users understand 'what's in it for me' and drives conversion.",
+    "steps": [
+      "Read through all major copy sections",
+      "Verify headlines focus on outcomes (revenue, time savings)",
+      "Verify feature descriptions explain benefits, not just capabilities",
+      "Verify copy addresses user pain points",
+      "Verify copy uses 'you' language rather than 'we' language"
+    ],
+    "priority": 2,
+    "passes": true,
+    "selected": true,
+    "order": 49,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "mobile-cta-sticky",
+    "category": "functional",
+    "description": "Optionally display sticky CTA button at bottom of mobile screen. Keeps purchase option always accessible on mobile devices.",
+    "steps": [
+      "Open landing page on mobile device",
+      "Scroll down the page",
+      "Verify CTA button remains visible at bottom (if implemented)",
+      "Tap sticky CTA button",
+      "Verify it initiates purchase flow"
+    ],
+    "priority": 4,
+    "passes": true,
+    "selected": true,
+    "order": 50,
+    "completedAt": "2026-02-12T23:53:08.713Z"
+  },
+  {
+    "id": "page-sections-anchor-navigation",
+    "category": "navigation",
+    "description": "Optionally provide anchor navigation to jump between major sections (Features, Pricing, FAQ). Improves navigation for users seeking specific information.",
+    "steps": [
+      "Check header or sidebar for section navigation",
+      "If present, verify links to major sections (Features, Pricing, FAQ)",
+      "Click a navigation link",
+      "Verify page scrolls to correct section",
+      "Verify active section is highlighted in navigation"
+    ],
+    "priority": 4,
+    "passes": false,
+    "selected": true,
+    "order": 51
+  }
+]

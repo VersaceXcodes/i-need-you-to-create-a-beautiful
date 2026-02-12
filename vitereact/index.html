@@ -1,0 +1,44 @@
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.png" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		
+		<!-- SEO Meta Tags -->
+		<title>ClawWrapper - Launch Your OpenClaw Wrapper Fast</title>
+		<meta name="description" content="OpenClaw wrappers are doing $4K-$22K/mo. Stop wiring up OAuth, payments, and deployment from scratch. Get a production-ready SaaS you can rebrand and ship today." />
+		<meta name="keywords" content="OpenClaw, wrapper, SaaS boilerplate, Next.js, Stripe, deployment, indie hacker" />
+		
+		<!-- Open Graph / Facebook -->
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://clawwrapper.com/" />
+		<meta property="og:title" content="ClawWrapper - Launch Your OpenClaw Wrapper Fast" />
+		<meta property="og:description" content="OpenClaw wrappers are doing $4K-$22K/mo. Get a production-ready SaaS you can rebrand and ship today for $99." />
+		<meta property="og:image" content="https://clawwrapper.com/og-image.jpg" />
+		
+		<!-- Twitter -->
+		<meta property="twitter:card" content="summary_large_image" />
+		<meta property="twitter:url" content="https://clawwrapper.com/" />
+		<meta property="twitter:title" content="ClawWrapper - Launch Your OpenClaw Wrapper Fast" />
+		<meta property="twitter:description" content="OpenClaw wrappers are doing $4K-$22K/mo. Get a production-ready SaaS you can rebrand and ship today for $99." />
+		<meta property="twitter:image" content="https://clawwrapper.com/og-image.jpg" />
+		
+		<link
+			href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap"
+			rel="stylesheet"
+		/>
+	</head>
+	<body>
+		<div id="root"></div>
+		<script type="module" src="/src/main.tsx"></script>
+		<script>
+			document.addEventListener("keydown", (event) => {
+				if (event.ctrlKey && event.key === "k") {
+					console.log("Ctrl+K pressed!");
+					event.preventDefault(); // Prevent doing a google search
+				}
+			});
+		</script>
+	</body>
+</html>
