@@ -14,7 +14,6 @@ import {
   CreditCard, 
   LayoutDashboard, 
   Globe, 
-  Send, 
   Palette, 
   Smartphone,
   ArrowRight,
@@ -171,7 +170,7 @@ const LandingPage: React.FC = () => {
               <AnimatedSection delay={0}>
                 <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-400/10 border border-amber-400/20 rounded-full mb-8">
                   <Rocket className="h-4 w-4 text-amber-400" />
-                  <span className="text-amber-400 text-sm font-medium font-mono">Early Access Available</span>
+                  <span className="text-amber-400 text-sm font-medium font-mono">Early Access: first 5 spots at $99 (then $299)</span>
                 </div>
               </AnimatedSection>
 
@@ -184,15 +183,15 @@ const LandingPage: React.FC = () => {
                     OpenClaw Wrapper
                   </span>
                   <br />
-                  <span className="text-[#71717a]">Fast</span>
+                  <span className="text-[#71717a]">— Fast.</span>
                 </h1>
               </AnimatedSection>
 
               {/* Subheadline */}
               <AnimatedSection delay={200}>
                 <p className="text-xl lg:text-2xl text-[#a1a1aa] mb-4 max-w-xl leading-relaxed">
-                  OpenClaw wrappers are doing{' '}
-                  <span className="text-white font-semibold font-mono">$4K-$22K/mo</span>.
+                  <span className="text-white font-semibold">Some OpenClaw wrappers report{' '}
+                  <span className="font-mono">$4K–$22K/mo</span>.</span>
                   <br />
                   Yours could be next.
                 </p>
@@ -200,7 +199,7 @@ const LandingPage: React.FC = () => {
 
               <AnimatedSection delay={300}>
                 <p className="text-lg text-[#71717a] mb-10 max-w-xl">
-                  Stop wiring up OAuth, payments, and deployment from scratch. Get a production-ready SaaS you can rebrand and ship today.
+                  Stop wiring up auth, billing, and deployments from scratch. Get a production-ready, white-label SaaS codebase you can rebrand and ship today.
                 </p>
               </AnimatedSection>
 
@@ -215,7 +214,7 @@ const LandingPage: React.FC = () => {
                     <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
                   </Button>
                   <div className="flex flex-col text-left">
-                    <span className="text-[#71717a] line-through text-lg">$299</span>
+                    <span className="text-[#71717a] line-through text-lg">was $299</span>
                     <span className="text-red-400 text-sm font-medium">Only 5 spots left</span>
                   </div>
                 </div>
@@ -255,10 +254,15 @@ const LandingPage: React.FC = () => {
                     <div className="font-mono text-sm space-y-2">
                       <p className="text-[#71717a]">$ git clone clawwrapper</p>
                       <p className="text-emerald-400">✓ Cloned successfully</p>
+                      <p className="text-[#71717a]">&nbsp;</p>
                       <p className="text-[#71717a]">$ npm run deploy</p>
-                      <p className="text-cyan-400">→ Deploying to production...</p>
-                      <p className="text-emerald-400">✓ Live at yoursite.com</p>
+                      <p className="text-cyan-400">→ Provisioning infrastructure...</p>
+                      <p className="text-cyan-400">→ Deploying app...</p>
+                      <p className="text-[#71717a]">&nbsp;</p>
+                      <p className="text-emerald-400">✓ Live at https://yoursite.com</p>
+                      <p className="text-[#71717a]">&nbsp;</p>
                       <p className="text-amber-400">→ First payment received: $99</p>
+                      <p className="text-amber-400">→ This week: +$4,779</p>
                     </div>
                   </div>
                   
@@ -291,7 +295,7 @@ const LandingPage: React.FC = () => {
                 Wrappers Making Money <span className="text-[#71717a]">Right Now</span>
               </h2>
               <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                Other OpenClaw wrappers showing what's possible. Different brands, real revenue.
+                Other OpenClaw wrappers show what's possible: different brands, real demand.
               </p>
             </div>
           </AnimatedSection>
@@ -299,26 +303,26 @@ const LandingPage: React.FC = () => {
           <div className="grid md:grid-cols-3 gap-6">
             {[
               {
-                metric: '$4K-$22K/mo',
-                label: 'TrustMRR Marketplace',
-                title: 'Multiple wrappers selling',
-                description: 'OpenClaw wrappers listed on TrustMRR, each generating thousands in monthly recurring revenue.',
+                metric: '$4K–$22K/mo',
+                label: 'Marketplace Listings',
+                title: 'Real market demand',
+                description: 'Marketplaces like TrustMRR list multiple OpenClaw wrappers selling to customers.',
                 gradient: 'from-emerald-500/20 to-emerald-600/5',
                 accentColor: 'text-emerald-400'
               },
               {
                 metric: '$4K in 6 days',
-                label: '91 Active Subscriptions',
-                title: 'From zero to $4K MRR',
-                description: 'From zero to $4,779 MRR with 91 active subscriptions in under a week.',
+                label: 'Fast Traction',
+                title: 'Quick wins are real',
+                description: 'Fast traction is real when the product is simple and the onboarding is clean.',
                 gradient: 'from-cyan-500/20 to-cyan-600/5',
                 accentColor: 'text-cyan-400'
               },
               {
                 metric: '$22K+',
-                label: 'All-Time Revenue',
-                title: 'SimpleClaw revenue',
-                description: 'SimpleClaw hit $22,773 in total revenue with $21,763 profit margin.',
+                label: 'Total Revenue',
+                title: 'Meaningful revenue',
+                description: 'Small wrappers can reach meaningful revenue fast with a focused offer.',
                 gradient: 'from-amber-500/20 to-amber-600/5',
                 accentColor: 'text-amber-400'
               }
@@ -339,22 +343,30 @@ const LandingPage: React.FC = () => {
             ))}
           </div>
 
-          {/* Marc Lou Testimonial */}
+          {/* Testimonial */}
           <AnimatedSection delay={400}>
             <div className="mt-16 bg-[#1e1e28] border border-white/5 rounded-2xl p-8 lg:p-12">
               <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
                 <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-black text-xl font-bold flex-shrink-0">
-                  ML
+                  "
                 </div>
                 <div className="flex-1">
                   <p className="text-2xl lg:text-3xl font-bold mb-3">
-                    "It's OpenClaw wrappers time!"
+                    "Wrappers are having a moment."
                   </p>
-                  <p className="text-white font-medium">Marc Lou</p>
-                  <p className="text-[#71717a] text-sm">Indie hacker, $2M+ in revenue from solo products</p>
+                  <p className="text-[#71717a] text-sm italic">
+                    (Replace with your own quote or a real testimonial you have permission to use.)
+                  </p>
                 </div>
               </div>
             </div>
+          </AnimatedSection>
+
+          {/* Disclaimer */}
+          <AnimatedSection delay={500}>
+            <p className="mt-8 text-center text-[#71717a] text-sm italic">
+              Results vary. These are examples from the market, not guarantees.
+            </p>
           </AnimatedSection>
         </div>
       </section>
@@ -369,7 +381,7 @@ const LandingPage: React.FC = () => {
                 Weeks of Work, <span className="text-[#71717a]">or Hours</span>
               </h2>
               <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                Skip the boring infrastructure work and go straight to making money.
+                Skip the infrastructure grind and go straight to selling.
               </p>
             </div>
           </AnimatedSection>
@@ -384,15 +396,13 @@ const LandingPage: React.FC = () => {
                 </div>
                 <ul className="space-y-4">
                   {[
-                    'Set up Next.js, TypeScript, Tailwind from scratch',
-                    'Build Google OAuth & session management',
-                    'Integrate Stripe subscriptions & webhooks',
-                    'Create admin dashboard & user management',
-                    'Set up remote Docker deployment over SSH',
-                    'Configure Caddy reverse proxy with auto HTTPS',
-                    'Set up Postgres database & row-level security',
-                    'Build Telegram bot integration',
-                    'Write VPS setup scripts & documentation'
+                    'Set up auth + sessions + org accounts',
+                    'Build billing (Stripe subscriptions + webhooks + customer portal)',
+                    'Build admin dashboard (users, access control, metrics)',
+                    'Set up database + migrations + realtime updates',
+                    'Build agent lifecycle (start/stop/provision) + secure secrets storage',
+                    'Add monitoring + logs + production hardening',
+                    'Write setup docs people can actually follow'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <X className="h-5 w-5 text-red-400 flex-shrink-0 mt-0.5" />
@@ -411,13 +421,13 @@ const LandingPage: React.FC = () => {
                 </div>
                 <div className="mb-8">
                   <h3 className="text-xl font-bold mb-2">With ClawWrapper</h3>
-                  <p className="text-3xl font-bold text-emerald-400 font-mono">&lt;1 day</p>
+                  <p className="text-3xl font-bold text-emerald-400 font-mono">under 1 day</p>
                 </div>
                 <ul className="space-y-4 mb-8">
                   {[
-                    'Clone the repo & set your env variables',
-                    'Connect your Stripe, Supabase & VPS keys',
-                    'Run the setup script & deploy to your server'
+                    'Clone the repo + set env vars',
+                    'Connect Stripe + Supabase + AWS',
+                    'Run the setup script + deploy'
                   ].map((item, idx) => (
                     <li key={idx} className="flex items-start gap-3">
                       <Check className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -429,10 +439,10 @@ const LandingPage: React.FC = () => {
                   <p className="font-semibold text-amber-400 mb-4 text-sm">What you end up with</p>
                   <ul className="space-y-2">
                     {[
-                      'Live product accepting payments',
-                      'Admin dashboard tracking users',
-                      'Full source code you own forever',
-                      'HTTPS, SEO, and monitoring, done'
+                      'A live product accepting payments',
+                      'A dashboard to manage customers + agents',
+                      'Full source code you own and can rebrand',
+                      'Deployment + logs + basic monitoring included'
                     ].map((item, idx) => (
                       <li key={idx} className="flex items-start gap-2">
                         <Check className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -454,10 +464,10 @@ const LandingPage: React.FC = () => {
             <div className="text-left mb-16">
               <p className="text-amber-400 font-mono text-sm mb-4">EVERYTHING INCLUDED</p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                Ship-Ready <span className="text-[#71717a]">Features</span>
+                Ship-Ready Features <span className="text-[#71717a]">(Not "Coming Soon")</span>
               </h2>
               <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                ClawWrapper comes loaded with every feature you'd spend weeks building yourself.
+                Everything you'd normally build the hard way.
               </p>
             </div>
           </AnimatedSection>
@@ -465,58 +475,58 @@ const LandingPage: React.FC = () => {
           <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               {
-                icon: <Zap className="h-6 w-6" />,
-                title: 'Docker Deployment',
-                description: 'Deploy user instances to your VPS over SSH. Automated setup, container management.',
-                iconBg: 'bg-amber-400/10',
-                iconColor: 'text-amber-400'
-              },
-              {
                 icon: <Lock className="h-6 w-6" />,
-                title: 'Supabase Auth',
-                description: 'Google OAuth, session persistence, row-level security, Postgres database.',
+                title: 'Auth (B2B-ready)',
+                description: 'Org accounts, magic links, sessions.',
                 iconBg: 'bg-emerald-400/10',
                 iconColor: 'text-emerald-400'
               },
               {
                 icon: <CreditCard className="h-6 w-6" />,
-                title: 'Stripe Payments',
-                description: 'Subscription billing, Stripe Checkout, webhooks, customer portal.',
+                title: 'Stripe Billing',
+                description: 'Checkout, subscriptions, webhooks, customer portal.',
                 iconBg: 'bg-purple-400/10',
                 iconColor: 'text-purple-400'
               },
               {
-                icon: <LayoutDashboard className="h-6 w-6" />,
-                title: 'Admin Dashboard',
-                description: 'Manage users, view analytics, control your SaaS from built-in panel.',
-                iconBg: 'bg-orange-400/10',
-                iconColor: 'text-orange-400'
+                icon: <Zap className="h-6 w-6" />,
+                title: 'Agent Provisioning',
+                description: 'Launch isolated OpenClaw instances (start/stop/delete) on AWS.',
+                iconBg: 'bg-amber-400/10',
+                iconColor: 'text-amber-400'
+              },
+              {
+                icon: <Shield className="h-6 w-6" />,
+                title: 'Encrypted Secrets',
+                description: 'Keys stored securely (no keys in your database).',
+                iconBg: 'bg-red-400/10',
+                iconColor: 'text-red-400'
               },
               {
                 icon: <Globe className="h-6 w-6" />,
-                title: 'Caddy Proxy',
-                description: 'Automatic HTTPS with Let\'s Encrypt. Zero-config SSL certificates.',
+                title: 'Realtime Status',
+                description: 'Live instance status + setup progress in the dashboard.',
                 iconBg: 'bg-cyan-400/10',
                 iconColor: 'text-cyan-400'
               },
               {
-                icon: <Send className="h-6 w-6" />,
-                title: 'Telegram Bot',
-                description: 'Built-in bot for notifications, user support, and admin alerts.',
-                iconBg: 'bg-blue-400/10',
-                iconColor: 'text-blue-400'
+                icon: <LayoutDashboard className="h-6 w-6" />,
+                title: 'Admin Dashboard',
+                description: 'Manage users, org access, and instances from one place.',
+                iconBg: 'bg-orange-400/10',
+                iconColor: 'text-orange-400'
               },
               {
                 icon: <Palette className="h-6 w-6" />,
                 title: 'White-Label',
-                description: 'Change name, logo, colors in minutes. No trace of boilerplate.',
+                description: 'Change name/logo/colors quickly. Make it your brand.',
                 iconBg: 'bg-pink-400/10',
                 iconColor: 'text-pink-400'
               },
               {
                 icon: <Smartphone className="h-6 w-6" />,
-                title: 'Responsive',
-                description: 'Mobile-first design with Tailwind CSS, server-rendered pages.',
+                title: 'Docs + Scripts',
+                description: 'Setup steps that reduce support and refunds.',
                 iconBg: 'bg-indigo-400/10',
                 iconColor: 'text-indigo-400'
               }
@@ -592,18 +602,16 @@ const LandingPage: React.FC = () => {
               {/* Features list - 2 columns */}
               <div className="grid md:grid-cols-2 gap-3 mb-10">
                 {[
-                  'Full Next.js + TypeScript source code',
-                  'Google OAuth login & session management',
-                  'Stripe subscriptions & webhooks',
-                  'Admin dashboard with user management',
-                  'Remote Docker deployment over SSH',
-                  'Caddy reverse proxy with auto HTTPS',
-                  'Postgres database with row-level security',
-                  'Telegram bot integration',
-                  'White-label branding via env vars',
-                  'VPS setup script & documentation',
-                  'Lifetime updates, no subscription',
-                  'Unlimited products, clone for each brand'
+                  'Full source code (Next.js + TypeScript)',
+                  'Auth + org accounts',
+                  'Stripe subscriptions + webhooks + customer portal',
+                  'Admin dashboard',
+                  'Agent lifecycle (provision/start/stop/delete)',
+                  'Secure secrets storage',
+                  'White-label branding',
+                  'Setup scripts + documentation',
+                  'Lifetime updates',
+                  '14-day money-back guarantee'
                 ].map((feature, idx) => (
                   <div key={idx} className="flex items-start gap-3">
                     <Check className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
@@ -617,7 +625,7 @@ const LandingPage: React.FC = () => {
                 onClick={handleGetClawWrapper}
                 className="w-full bg-amber-400 hover:bg-amber-300 text-black font-bold py-6 text-lg rounded-xl shadow-[0_0_30px_rgba(251,191,36,0.3)] hover:shadow-[0_0_50px_rgba(251,191,36,0.5)] transition-all"
               >
-                Get ClawWrapper
+                Get ClawWrapper — $99
                 <ArrowRight className="ml-2 h-5 w-5" />
               </Button>
 
@@ -629,7 +637,7 @@ const LandingPage: React.FC = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Check className="h-4 w-4 text-emerald-400" />
-                  <span>14-day money-back</span>
+                  <span>Instant access</span>
                 </div>
               </div>
             </div>
@@ -646,9 +654,6 @@ const LandingPage: React.FC = () => {
               <h2 className="text-4xl lg:text-5xl font-bold mb-4">
                 Questions? <span className="text-[#71717a]">Answers.</span>
               </h2>
-              <p className="text-xl text-[#a1a1aa]">
-                Everything you need to know before you buy.
-              </p>
             </div>
           </AnimatedSection>
 
@@ -657,35 +662,35 @@ const LandingPage: React.FC = () => {
               {[
                 {
                   question: 'How do I get access after I buy?',
-                  answer: 'Immediately after purchase, you\'ll receive an email with access to the private GitHub repository containing all the source code, documentation, and setup scripts. You can start building right away.'
+                  answer: 'Instant access (download or private repo invite). Setup instructions included.'
                 },
                 {
                   question: 'What exactly do I get for $99?',
-                  answer: 'You get the complete ClawWrapper source code, including Next.js frontend, authentication system, payment integration, Docker deployment scripts, database setup, and comprehensive documentation. Everything you need to launch your own OpenClaw wrapper business.'
+                  answer: 'A complete, working codebase you can rebrand and deploy, plus docs and scripts.'
                 },
                 {
-                  question: 'Do I need to be a developer to use this?',
-                  answer: 'Basic technical knowledge is helpful, but our step-by-step documentation makes it accessible even if you\'re not an experienced developer. If you can follow terminal commands and edit configuration files, you can deploy ClawWrapper.'
+                  question: 'Do I need to be a developer?',
+                  answer: 'You\'ll be fastest if you can run commands and edit env vars. If not, a freelancer can deploy this in a day.'
                 },
                 {
-                  question: 'How is this different from ShipFast or other boilerplates?',
-                  answer: 'ClawWrapper is specifically built for OpenClaw wrappers with pre-configured Docker deployment, VPS management, and instance provisioning. It\'s not a generic SaaS boilerplate—it\'s purpose-built for this exact use case.'
+                  question: 'How is this different from generic boilerplates?',
+                  answer: 'It\'s built specifically for OpenClaw wrappers: provisioning, instance lifecycle, secure key handling, and a dashboard that matches the business.'
                 },
                 {
                   question: 'What auth methods are included?',
-                  answer: 'Google OAuth is included and ready to use via Supabase. The architecture makes it easy to add additional providers like GitHub, Twitter, or email/password authentication.'
+                  answer: 'B2B-style org accounts with Stytch (magic links + sessions).'
                 },
                 {
                   question: 'What\'s included in lifetime updates?',
-                  answer: 'You get access to all future improvements, bug fixes, and new features we add to ClawWrapper. No additional subscription or recurring fees—just one payment for lifetime access.'
+                  answer: 'Bug fixes, improvements, and maintenance updates to keep the stack current.'
                 },
                 {
                   question: 'Can I use this for multiple products?',
-                  answer: 'Yes! You can clone the codebase and create unlimited wrappers for different brands or niches. Each purchase gives you rights to use the code for as many products as you want.'
+                  answer: 'Yes. Clone it, rebrand it, and ship multiple wrappers.'
                 },
                 {
-                  question: 'Is there a refund policy?',
-                  answer: 'Yes, we offer a 14-day money-back guarantee. If you\'re not satisfied with ClawWrapper for any reason, just email us within 14 days of purchase for a full refund.'
+                  question: 'Refund policy?',
+                  answer: '14 days. If it\'s not a fit, you get your money back.'
                 }
               ].map((faq, idx) => (
                 <AccordionItem 
@@ -713,28 +718,29 @@ const LandingPage: React.FC = () => {
             <div className="text-left mb-12">
               <p className="text-amber-400 font-mono text-sm mb-4">POSSIBILITIES</p>
               <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                What can OpenClaw <span className="text-[#71717a]">do for you?</span>
+                What can OpenClaw <span className="text-[#71717a]">do for your customers?</span>
               </h2>
               <p className="text-xl text-[#a1a1aa]">
-                One assistant, thousands of use cases
+                One assistant. Thousands of use cases.
               </p>
             </div>
           </AnimatedSection>
 
           <AnimatedSection delay={200}>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-2">
+            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3">
               {[
-                'Read & summarize email', 'Draft replies', 'Translate messages', 'Organize inbox',
-                'Answer support tickets', 'Summarize documents', 'Meeting reminders', 'Schedule meetings',
-                'Track deadlines', 'Plan your week', 'Meeting notes', 'Sync time zones',
-                'Tax help', 'Track expenses', 'Compare quotes', 'Manage subscriptions',
-                'Payroll calculations', 'Negotiate refunds', 'Find coupons', 'Price alerts',
-                'Find discounts', 'Compare specs', 'Write contracts', 'Research competitors',
-                'Prioritize leads', 'Generate invoices', 'Book travel', 'Draft social posts'
+                'Answer support tickets',
+                'Draft replies and follow-ups',
+                'Summarize documents',
+                'Schedule meetings and reminders',
+                'Research competitors',
+                'Generate invoices and proposals',
+                'Track tasks and deadlines',
+                'Build niche assistants for real estate, agencies, coaches, ecommerce'
               ].map((useCase, idx) => (
                 <div 
                   key={idx}
-                  className="bg-[#12121a] border border-white/5 rounded-lg px-3 py-2 text-xs text-[#a1a1aa] text-center hover:border-amber-400/20 hover:text-white transition-all cursor-default"
+                  className="bg-[#12121a] border border-white/5 rounded-lg px-4 py-3 text-sm text-[#a1a1aa] hover:border-amber-400/20 hover:text-white transition-all cursor-default"
                 >
                   {useCase}
                 </div>
@@ -743,74 +749,15 @@ const LandingPage: React.FC = () => {
           </AnimatedSection>
 
           <AnimatedSection delay={300}>
-            <p className="text-center text-[#71717a] italic mt-8 text-sm">
-              PS. You can add as many use cases as you want via natural language
+            <p className="text-left text-[#71717a] italic mt-8 text-sm">
+              PS: You can add unlimited use cases through prompts and onboarding.
             </p>
           </AnimatedSection>
         </div>
       </section>
 
-      {/* SimpleClaw Comparison */}
-      <section id="simpleclaw" className="py-24 bg-[#12121a]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="bg-gradient-to-br from-[#1e1e28] to-[#12121a] border border-white/5 rounded-3xl p-8 lg:p-12">
-              <div className="text-left mb-12">
-                <p className="text-amber-400 font-mono text-sm mb-4">DEPLOYMENT COMPARISON</p>
-                <h2 className="text-3xl lg:text-4xl font-bold mb-4">
-                  Deploy OpenClaw <span className="text-[#71717a]">under 1 minute</span>
-                </h2>
-                <p className="text-lg text-[#a1a1aa] max-w-2xl">
-                  Avoid all technical complexity and one-click deploy your own 24/7 active OpenClaw instance.
-                </p>
-              </div>
-
-              <div className="grid lg:grid-cols-2 gap-6">
-                {/* Traditional Method */}
-                <div className="bg-[#12121a] border border-white/5 rounded-xl p-6">
-                  <h3 className="text-lg font-bold mb-6">Traditional</h3>
-                  <ul className="space-y-3">
-                    {[
-                      { task: 'Purchasing virtual machine', time: '15 min' },
-                      { task: 'Creating SSH keys', time: '10 min' },
-                      { task: 'Connecting via SSH', time: '5 min' },
-                      { task: 'Installing Node.js', time: '5 min' },
-                      { task: 'Installing OpenClaw', time: '7 min' },
-                      { task: 'Setting up OpenClaw', time: '10 min' },
-                      { task: 'Connecting AI provider', time: '4 min' },
-                      { task: 'Pairing with Telegram', time: '4 min' }
-                    ].map((item, idx) => (
-                      <li key={idx} className="flex justify-between items-center text-sm">
-                        <span className="text-[#a1a1aa]">{item.task}</span>
-                        <span className="text-[#71717a] font-mono">{item.time}</span>
-                      </li>
-                    ))}
-                    <li className="flex justify-between items-center pt-3 border-t border-white/10">
-                      <span className="font-semibold">Total</span>
-                      <span className="font-bold text-red-400 font-mono">60 min</span>
-                    </li>
-                  </ul>
-                  <p className="text-xs text-[#71717a] mt-4 italic">
-                    If you're non-technical, multiply by 10x.
-                  </p>
-                </div>
-
-                {/* SimpleClaw Method */}
-                <div className="bg-gradient-to-br from-emerald-500/10 to-emerald-600/5 border border-emerald-400/20 rounded-xl p-6 flex flex-col justify-center items-center text-center">
-                  <h3 className="text-lg font-bold mb-4">SimpleClaw</h3>
-                  <p className="text-6xl font-bold text-emerald-400 font-mono mb-4">&lt;1 min</p>
-                  <p className="text-[#a1a1aa] text-sm max-w-xs">
-                    Pick a model, connect Telegram, deploy — done.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
-        </div>
-      </section>
-
       {/* Final CTA Section */}
-      <section id="final-cta" className="py-24 bg-[#0a0a0f] relative overflow-hidden">
+      <section id="final-cta" className="py-24 bg-[#12121a] relative overflow-hidden">
         <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(251,191,36,0.1),transparent_50%)]" />
         
         <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative">
@@ -824,18 +771,19 @@ const LandingPage: React.FC = () => {
           
           <AnimatedSection delay={100}>
             <p className="text-xl text-[#a1a1aa] mb-10 max-w-2xl mx-auto">
-              Every day you spend wiring up OAuth, Stripe webhooks, and Docker deployment is a day you're not making money.
+              Every day you spend wiring up auth, billing, and deployments is a day you're not shipping.
             </p>
           </AnimatedSection>
           
           <AnimatedSection delay={200}>
-            <div className="inline-flex flex-col items-center bg-[#12121a] border border-amber-400/20 rounded-2xl p-8 mb-8">
+            <div className="inline-flex flex-col items-center bg-[#0a0a0f] border border-amber-400/20 rounded-2xl p-8 mb-8">
+              <p className="text-amber-400 text-sm font-medium mb-4">Early access</p>
               <div className="flex items-center gap-4 mb-4">
                 <span className="text-2xl text-[#71717a] line-through">$299</span>
                 <span className="text-5xl font-bold text-amber-400 font-mono">$99</span>
               </div>
               <p className="text-red-400 text-sm">
-                Only 5 spots left at early-bird pricing
+                Only 5 spots left
               </p>
             </div>
           </AnimatedSection>
@@ -866,7 +814,7 @@ const LandingPage: React.FC = () => {
               </span>
               <span className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-emerald-400" />
-                Comprehensive docs
+                Clear docs
               </span>
             </div>
           </AnimatedSection>
@@ -885,7 +833,7 @@ const LandingPage: React.FC = () => {
                 <span className="text-xl font-bold">ClawWrapper</span>
               </div>
               <p className="text-[#71717a] text-sm">
-                Launch your OpenClaw wrapper fast with production-ready infrastructure.
+                Launch your OpenClaw wrapper with production-ready infrastructure.
               </p>
             </div>
             <div>
@@ -900,13 +848,11 @@ const LandingPage: React.FC = () => {
               <h3 className="font-semibold mb-4">Support</h3>
               <ul className="space-y-2 text-sm text-[#71717a]">
                 <li><a href="#" className="hover:text-white transition-colors">Contact Support</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">SimpleClaw.com</a></li>
               </ul>
             </div>
           </div>
           <div className="border-t border-white/5 pt-8 text-center text-sm text-[#71717a]">
-            <p>Built with love by <a href="#" className="text-amber-400 hover:text-amber-300">Savio Martin</a></p>
-            <p className="mt-2">© 2026 ClawWrapper. All rights reserved.</p>
+            <p>© 2026 ClawWrapper. All rights reserved.</p>
           </div>
         </div>
       </footer>
