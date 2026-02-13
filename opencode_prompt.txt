@@ -436,7 +436,7 @@ Savio Martin
 Contact Support
 
 ## Current User Request
-search intenert
+revert to to ycombinator is funding openclaw wrappers
 
 Start by running the startup sequence, then pick the next feature to implement.
 

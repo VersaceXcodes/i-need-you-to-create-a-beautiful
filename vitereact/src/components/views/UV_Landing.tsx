@@ -259,11 +259,11 @@ const LandingPage: React.FC = () => {
                 <div className="flex-1">
                   <p className="text-orange-400 text-sm font-medium mb-2">MARKET VALIDATION</p>
                   <h3 className="text-2xl md:text-3xl font-bold mb-3">
-                    Y Combinator is funding AI agent startups
+                    Y Combinator is funding OpenClaw wrappers
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    YC-backed Motion just raised $38M at a $550M valuation to build AI agents for SMBs. 
-                    The world's top accelerator is actively backing the AI wrapper opportunity.
+                    The world's top startup accelerator sees the opportunity. They're actively backing companies 
+                    building AI agent wrappers. The market is real, the timing is now.
                   </p>
                 </div>
               </div>
