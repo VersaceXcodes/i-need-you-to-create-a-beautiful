@@ -436,7 +436,7 @@ Savio Martin
 Contact Support
 
 ## Current User Request
-use high quality logo brand svgs were suitable in landing page... search web if need be
+add this stripe payment link https://buy.stripe.com/5kQ3cu1SQ2QCg1icFZ8Vi00
 
 Start by running the startup sequence, then pick the next feature to implement.
 

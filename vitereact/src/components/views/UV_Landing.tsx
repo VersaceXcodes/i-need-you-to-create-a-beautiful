@@ -91,8 +91,8 @@ const LandingPage: React.FC = () => {
   };
 
   const handleGetClawWrapper = () => {
-    console.log('Initiating checkout...');
-    alert('Redirecting to checkout... (This is a demo)');
+    // Redirect to Stripe checkout
+    window.location.href = 'https://buy.stripe.com/5kQ3cu1SQ2QCg1icFZ8Vi00';
   };
 
   return (
