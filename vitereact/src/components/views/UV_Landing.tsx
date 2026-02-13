@@ -23,6 +23,7 @@ import {
   Shield,
   ChevronDown
 } from 'lucide-react';
+import { techStackData } from '@/components/TechIcons';
 
 // Intersection Observer hook for scroll animations
 const useInView = (options = {}) => {
@@ -536,10 +537,19 @@ const LandingPage: React.FC = () => {
           <AnimatedSection delay={400}>
             <div className="mt-16">
               <p className="text-[#71717a] text-sm mb-6 text-center">BUILT WITH</p>
-              <div className="flex flex-wrap justify-center gap-3">
-                {['Next.js', 'React', 'TypeScript', 'Tailwind', 'Supabase', 'Stripe', 'Docker', 'Caddy', 'Telegram', 'Node.js'].map((tech, idx) => (
-                  <div key={idx} className="px-4 py-2 bg-[#1e1e28] border border-white/5 rounded-lg text-sm font-mono text-[#a1a1aa]">
-                    {tech}
+              <div className="flex flex-wrap justify-center gap-4">
+                {techStackData.map((tech, idx) => (
+                  <div 
+                    key={idx} 
+                    className="group flex items-center gap-3 px-5 py-3 bg-[#1e1e28] border border-white/5 hover:border-white/20 rounded-xl transition-all hover:-translate-y-0.5"
+                  >
+                    <tech.icon 
+                      className="w-5 h-5 transition-colors" 
+                      style={{ color: tech.color }}
+                    />
+                    <span className="text-sm font-medium text-[#a1a1aa] group-hover:text-white transition-colors">
+                      {tech.name}
+                    </span>
                   </div>
                 ))}
               </div>
