@@ -245,6 +245,50 @@ const LandingPage: React.FC = () => {
         </div>
       </section>
 
+      {/* Y Combinator Section */}
+      <section className="py-20 px-6">
+        <div className="max-w-4xl mx-auto">
+          <AnimatedSection>
+            <div className="bg-gradient-to-br from-orange-500/10 to-orange-600/5 border border-orange-500/20 rounded-2xl p-8 md:p-12">
+              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
+                {/* YC Logo */}
+                <div className="w-16 h-16 bg-orange-500 rounded-xl flex items-center justify-center flex-shrink-0">
+                  <span className="text-white font-bold text-2xl">Y</span>
+                </div>
+                
+                <div className="flex-1">
+                  <p className="text-orange-400 text-sm font-medium mb-2">MARKET VALIDATION</p>
+                  <h3 className="text-2xl md:text-3xl font-bold mb-3">
+                    Y Combinator is funding OpenClaw wrappers
+                  </h3>
+                  <p className="text-zinc-400 leading-relaxed">
+                    The world's top startup accelerator sees the opportunity. They're actively backing companies 
+                    building AI agent wrappers. The market is real, the timing is now.
+                  </p>
+                </div>
+              </div>
+              
+              <div className="mt-8 pt-8 border-t border-orange-500/20">
+                <div className="grid sm:grid-cols-3 gap-6 text-center sm:text-left">
+                  <div>
+                    <p className="text-2xl font-bold text-white">$500K</p>
+                    <p className="text-zinc-500 text-sm">Standard YC deal</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl font-bold text-white">W25 Batch</p>
+                    <p className="text-zinc-500 text-sm">AI wrappers funded</p>
+                  </div>
+                  <div>
+                    <p className="text-2xl font-bold text-white">Growing</p>
+                    <p className="text-zinc-500 text-sm">Category momentum</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
       {/* How It Works - 3 Steps */}
       <section id="how-it-works" className="py-24 px-6">
         <div className="max-w-6xl mx-auto">
