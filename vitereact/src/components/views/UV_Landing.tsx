@@ -259,11 +259,11 @@ const LandingPage: React.FC = () => {
                 <div className="flex-1">
                   <p className="text-orange-400 text-sm font-medium mb-2">MARKET VALIDATION</p>
                   <h3 className="text-2xl md:text-3xl font-bold mb-3">
-                    Y Combinator is funding OpenClaw wrappers
+                    Y Combinator is funding AI agent startups
                   </h3>
                   <p className="text-zinc-400 leading-relaxed">
-                    The world's top startup accelerator sees the opportunity. They're actively backing companies 
-                    building AI agent wrappers. The market is real, the timing is now.
+                    YC-backed Motion just raised $38M at a $550M valuation to build AI agents for SMBs. 
+                    The world's top accelerator is actively backing the AI wrapper opportunity.
                   </p>
                 </div>
               </div>
@@ -272,15 +272,15 @@ const LandingPage: React.FC = () => {
                 <div className="grid sm:grid-cols-3 gap-6 text-center sm:text-left">
                   <div>
                     <p className="text-2xl font-bold text-white">$500K</p>
-                    <p className="text-zinc-500 text-sm">Standard YC deal</p>
+                    <p className="text-zinc-500 text-sm">Standard YC investment</p>
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-white">W25 Batch</p>
-                    <p className="text-zinc-500 text-sm">AI wrappers funded</p>
+                    <p className="text-2xl font-bold text-white">5,000+</p>
+                    <p className="text-zinc-500 text-sm">Companies funded since 2005</p>
                   </div>
                   <div>
-                    <p className="text-2xl font-bold text-white">Growing</p>
-                    <p className="text-zinc-500 text-sm">Category momentum</p>
+                    <p className="text-2xl font-bold text-white">$600B+</p>
+                    <p className="text-zinc-500 text-sm">Combined alumni valuation</p>
                   </div>
                 </div>
               </div>
