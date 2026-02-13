@@ -8,19 +8,21 @@ import {
 } from '@/components/ui/accordion';
 import { 
   Check, 
-  X, 
-  Zap, 
-  Lock, 
-  CreditCard, 
-  LayoutDashboard, 
-  Globe, 
-  Palette, 
-  Smartphone,
   ArrowRight,
   Terminal,
-  Rocket,
   Shield,
-  ChevronDown
+  Clock,
+  Package,
+  Code2,
+  Users,
+  Key,
+  Activity,
+  Paintbrush,
+  FileText,
+  DollarSign,
+  Layers,
+  Server,
+  Sparkles
 } from 'lucide-react';
 import { techStackData } from '@/components/TechIcons';
 
@@ -61,7 +63,7 @@ const AnimatedSection: React.FC<{ children: React.ReactNode; className?: string;
       className={`transition-all duration-700 ease-out ${className}`}
       style={{
         opacity: isInView ? 1 : 0,
-        transform: isInView ? 'translateY(0)' : 'translateY(40px)',
+        transform: isInView ? 'translateY(0)' : 'translateY(30px)',
         transitionDelay: `${delay}ms`
       }}
     >
@@ -71,7 +73,6 @@ const AnimatedSection: React.FC<{ children: React.ReactNode; className?: string;
 };
 
 const LandingPage: React.FC = () => {
-  const [selectedImage, setSelectedImage] = useState<string | null>(null);
   const [headerScrolled, setHeaderScrolled] = useState(false);
 
   useEffect(() => {
@@ -90,454 +91,294 @@ const LandingPage: React.FC = () => {
   };
 
   const handleGetClawWrapper = () => {
-    // Redirect to Stripe checkout
     window.location.href = 'https://buy.stripe.com/5kQ3cu1SQ2QCg1icFZ8Vi00';
   };
 
   return (
-    <div className="min-h-screen bg-[#0a0a0f] text-[#f5f5f7] overflow-x-hidden">
-      {/* Sticky Header - Left-aligned nav (respects left-side bias) */}
+    <div className="min-h-screen bg-[#09090b] text-[#fafafa] overflow-x-hidden">
+      {/* Header */}
       <header 
-        className={`sticky top-0 z-50 transition-all duration-300 ${
+        className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
           headerScrolled 
-            ? 'bg-[#0a0a0f]/95 backdrop-blur-md border-b border-white/10' 
+            ? 'bg-[#09090b]/90 backdrop-blur-xl border-b border-zinc-800' 
             : 'bg-transparent'
         }`}
       >
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 py-4">
+        <div className="max-w-6xl mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            {/* Logo - Left aligned */}
-            <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center">
-                <Terminal className="h-5 w-5 text-black" />
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                <Terminal className="h-4 w-4 text-black" />
               </div>
-              <span className="text-xl font-bold tracking-tight">ClawWrapper</span>
+              <span className="font-semibold">ClawWrapper</span>
             </div>
             
-            {/* Navigation - Left-aligned items */}
-            <nav className="hidden md:flex items-center gap-8">
+            <nav className="hidden md:flex items-center gap-6">
               <button 
-                onClick={() => scrollToSection('features')}
-                className="text-[#a1a1aa] hover:text-white transition-colors text-sm font-medium"
+                onClick={() => scrollToSection('how-it-works')}
+                className="text-zinc-400 hover:text-white transition-colors text-sm"
               >
-                Features
+                How it works
+              </button>
+              <button 
+                onClick={() => scrollToSection('whats-inside')}
+                className="text-zinc-400 hover:text-white transition-colors text-sm"
+              >
+                What's inside
               </button>
               <button 
                 onClick={() => scrollToSection('pricing')}
-                className="text-[#a1a1aa] hover:text-white transition-colors text-sm font-medium"
+                className="text-zinc-400 hover:text-white transition-colors text-sm"
               >
                 Pricing
               </button>
-              <button 
-                onClick={() => scrollToSection('faq')}
-                className="text-[#a1a1aa] hover:text-white transition-colors text-sm font-medium"
-              >
-                FAQ
-              </button>
               <Button 
                 onClick={handleGetClawWrapper} 
-                className="bg-amber-400 hover:bg-amber-300 text-black font-semibold px-6 rounded-xl"
+                size="sm"
+                className="bg-white hover:bg-zinc-200 text-black font-medium rounded-lg"
               >
-                Get Started
+                Get access
               </Button>
             </nav>
           </div>
         </div>
       </header>
 
-      {/* Hero Section - Left-aligned, asymmetric layout */}
-      <section className="relative min-h-[90vh] flex items-center overflow-hidden">
-        {/* Background gradient layers */}
-        <div className="absolute inset-0 bg-gradient-to-br from-[#0a0a0f] via-[#12121a] to-[#0a0a0f]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_top_left,rgba(251,191,36,0.08),transparent_50%)]" />
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_bottom_right,rgba(34,211,238,0.05),transparent_50%)]" />
-        
-        {/* Grid pattern overlay */}
-        <div 
-          className="absolute inset-0 opacity-[0.03]"
-          style={{
-            backgroundImage: `linear-gradient(rgba(255,255,255,0.1) 1px, transparent 1px),
-                              linear-gradient(90deg, rgba(255,255,255,0.1) 1px, transparent 1px)`,
-            backgroundSize: '60px 60px'
-          }}
-        />
-
-        <div className="relative max-w-7xl mx-auto px-6 lg:px-8 py-20">
-          <div className="grid lg:grid-cols-12 gap-12 items-center">
-            {/* Left content - Takes 7 columns for asymmetric layout */}
-            <div className="lg:col-span-7 text-left">
-              {/* Badge */}
-              <AnimatedSection delay={0}>
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-amber-400/10 border border-amber-400/20 rounded-full mb-8">
-                  <Rocket className="h-4 w-4 text-amber-400" />
-                  <span className="text-amber-400 text-sm font-medium font-mono">Early Access: first 5 spots at $99 (then $299)</span>
-                </div>
-              </AnimatedSection>
-
-              {/* Main headline - Dramatic typography */}
-              <AnimatedSection delay={100}>
-                <h1 className="text-5xl sm:text-6xl lg:text-7xl font-bold leading-[1.05] tracking-tight mb-6">
-                  Launch Your
-                  <br />
-                  <span className="bg-gradient-to-r from-amber-400 via-amber-300 to-cyan-400 bg-clip-text text-transparent">
-                    OpenClaw Wrapper
-                  </span>
-                  <br />
-                  <span className="text-[#71717a]">— Fast.</span>
-                </h1>
-              </AnimatedSection>
-
-              {/* Subheadline */}
-              <AnimatedSection delay={200}>
-                <p className="text-xl lg:text-2xl text-[#a1a1aa] mb-4 max-w-xl leading-relaxed">
-                  <span className="text-white font-semibold">Some OpenClaw wrappers report{' '}
-                  <span className="font-mono">$4K–$22K/mo</span>.</span>
-                  <br />
-                  Yours could be next.
-                </p>
-              </AnimatedSection>
-
-              <AnimatedSection delay={300}>
-                <p className="text-lg text-[#71717a] mb-10 max-w-xl">
-                  Stop wiring up auth, billing, and deployments from scratch. Get a production-ready, white-label SaaS codebase you can rebrand and ship today.
-                </p>
-              </AnimatedSection>
-
-              {/* CTA Group */}
-              <AnimatedSection delay={400}>
-                <div className="flex flex-col sm:flex-row gap-4 items-start">
-                  <Button 
-                    onClick={handleGetClawWrapper}
-                    className="group bg-amber-400 hover:bg-amber-300 text-black font-bold px-8 py-6 text-lg rounded-xl shadow-[0_0_30px_rgba(251,191,36,0.3)] hover:shadow-[0_0_50px_rgba(251,191,36,0.5)] transition-all"
-                  >
-                    Get ClawWrapper — $99
-                    <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
-                  </Button>
-                  <div className="flex flex-col text-left">
-                    <span className="text-[#71717a] line-through text-lg">was $299</span>
-                    <span className="text-red-400 text-sm font-medium">Only 5 spots left</span>
-                  </div>
-                </div>
-              </AnimatedSection>
-
-              {/* Trust indicators */}
-              <AnimatedSection delay={500}>
-                <div className="flex flex-wrap gap-6 mt-10 text-sm text-[#71717a]">
-                  <div className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-emerald-400" />
-                    <span>Full source code</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-emerald-400" />
-                    <span>Lifetime updates</span>
-                  </div>
-                  <div className="flex items-center gap-2">
-                    <Check className="h-4 w-4 text-emerald-400" />
-                    <span>14-day refund</span>
-                  </div>
-                </div>
-              </AnimatedSection>
-            </div>
-
-            {/* Right content - Hero visual (5 columns) */}
-            <div className="lg:col-span-5 relative hidden lg:block">
-              <AnimatedSection delay={300}>
-                <div className="relative">
-                  {/* Code/Terminal mockup */}
-                  <div className="bg-[#1e1e28] border border-white/10 rounded-2xl p-6 shadow-2xl">
-                    <div className="flex items-center gap-2 mb-4">
-                      <div className="w-3 h-3 rounded-full bg-red-500" />
-                      <div className="w-3 h-3 rounded-full bg-amber-500" />
-                      <div className="w-3 h-3 rounded-full bg-emerald-500" />
-                      <span className="ml-3 text-[#71717a] text-xs font-mono">terminal</span>
-                    </div>
-                    <div className="font-mono text-sm space-y-2">
-                      <p className="text-[#71717a]">$ git clone clawwrapper</p>
-                      <p className="text-emerald-400">✓ Cloned successfully</p>
-                      <p className="text-[#71717a]">&nbsp;</p>
-                      <p className="text-[#71717a]">$ npm run deploy</p>
-                      <p className="text-cyan-400">→ Provisioning infrastructure...</p>
-                      <p className="text-cyan-400">→ Deploying app...</p>
-                      <p className="text-[#71717a]">&nbsp;</p>
-                      <p className="text-emerald-400">✓ Live at https://yoursite.com</p>
-                      <p className="text-[#71717a]">&nbsp;</p>
-                      <p className="text-amber-400">→ First payment received: $99</p>
-                      <p className="text-amber-400">→ This week: +$4,779</p>
-                    </div>
-                  </div>
-                  
-                  {/* Floating revenue card */}
-                  <div className="absolute -bottom-6 -left-6 bg-[#12121a] border border-amber-400/30 rounded-xl p-4 shadow-xl">
-                    <p className="text-[#71717a] text-xs mb-1">This week</p>
-                    <p className="text-2xl font-bold text-amber-400 font-mono">+$4,779</p>
-                  </div>
-                </div>
-              </AnimatedSection>
-            </div>
-          </div>
-        </div>
-
-        {/* Scroll indicator */}
-        <div className="absolute bottom-8 left-1/2 -translate-x-1/2 animate-bounce">
-          <ChevronDown className="h-6 w-6 text-[#71717a]" />
-        </div>
-      </section>
-
-      {/* Social Proof Section */}
-      <section id="social-proof" className="py-24 bg-[#12121a] relative">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(251,191,36,0.03),transparent_70%)]" />
-        
-        <div className="max-w-7xl mx-auto px-6 lg:px-8 relative">
+      {/* Hero Section - Problem-focused */}
+      <section className="pt-32 pb-20 px-6">
+        <div className="max-w-4xl mx-auto text-center">
           <AnimatedSection>
-            <div className="text-left mb-16">
-              <p className="text-amber-400 font-mono text-sm mb-4">PROOF OF CONCEPT</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                Wrappers Making Money <span className="text-[#71717a]">Right Now</span>
-              </h2>
-              <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                Other OpenClaw wrappers show what's possible: different brands, real demand.
+            <div className="inline-flex items-center gap-2 px-3 py-1.5 bg-zinc-800/50 border border-zinc-700 rounded-full text-sm text-zinc-300 mb-8">
+              <span className="w-2 h-2 bg-emerald-400 rounded-full animate-pulse" />
+              5 early-bird spots remaining
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={100}>
+            <h1 className="text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight mb-6 leading-[1.1]">
+              Skip the boilerplate.
+              <br />
+              <span className="text-zinc-500">Ship your OpenClaw wrapper.</span>
+            </h1>
+          </AnimatedSection>
+
+          <AnimatedSection delay={200}>
+            <p className="text-lg sm:text-xl text-zinc-400 max-w-2xl mx-auto mb-10 leading-relaxed">
+              You could spend 3 weeks building auth, billing, and infrastructure. 
+              Or you could clone this repo and launch tomorrow.
+            </p>
+          </AnimatedSection>
+
+          <AnimatedSection delay={300}>
+            <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
+              <Button 
+                onClick={handleGetClawWrapper}
+                size="lg"
+                className="bg-white hover:bg-zinc-200 text-black font-semibold px-8 py-6 text-base rounded-xl"
+              >
+                Get ClawWrapper — $99
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+              <p className="text-zinc-500 text-sm">
+                <span className="line-through">$299</span>
+                <span className="mx-2">·</span>
+                One-time purchase
               </p>
             </div>
           </AnimatedSection>
-          
-          <div className="grid md:grid-cols-3 gap-6">
+
+          {/* Terminal Preview */}
+          <AnimatedSection delay={400}>
+            <div className="mt-16 max-w-2xl mx-auto">
+              <div className="bg-zinc-900 border border-zinc-800 rounded-xl overflow-hidden shadow-2xl">
+                <div className="flex items-center gap-2 px-4 py-3 border-b border-zinc-800 bg-zinc-900/50">
+                  <div className="flex gap-1.5">
+                    <div className="w-3 h-3 rounded-full bg-zinc-700" />
+                    <div className="w-3 h-3 rounded-full bg-zinc-700" />
+                    <div className="w-3 h-3 rounded-full bg-zinc-700" />
+                  </div>
+                  <span className="text-zinc-500 text-xs font-mono ml-2">terminal</span>
+                </div>
+                <div className="p-6 font-mono text-sm text-left space-y-3">
+                  <div>
+                    <span className="text-zinc-500">$</span>
+                    <span className="text-zinc-300 ml-2">npx create-clawwrapper my-wrapper</span>
+                  </div>
+                  <div className="text-zinc-500">Creating project...</div>
+                  <div className="text-emerald-400">✓ Dependencies installed</div>
+                  <div className="text-emerald-400">✓ Environment configured</div>
+                  <div className="text-emerald-400">✓ Database connected</div>
+                  <div className="mt-4">
+                    <span className="text-zinc-500">$</span>
+                    <span className="text-zinc-300 ml-2">npm run deploy</span>
+                  </div>
+                  <div className="text-blue-400">→ Deploying to production...</div>
+                  <div className="text-emerald-400">✓ Live at https://my-wrapper.com</div>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Social proof - subtle */}
+      <section className="py-12 border-y border-zinc-800/50">
+        <div className="max-w-6xl mx-auto px-6">
+          <AnimatedSection>
+            <div className="flex flex-col md:flex-row items-center justify-center gap-8 md:gap-16 text-center">
+              <div>
+                <p className="text-3xl font-bold text-white">$4K–$22K</p>
+                <p className="text-zinc-500 text-sm mt-1">Monthly revenue range for wrappers</p>
+              </div>
+              <div className="hidden md:block w-px h-12 bg-zinc-800" />
+              <div>
+                <p className="text-3xl font-bold text-white">&lt;1 day</p>
+                <p className="text-zinc-500 text-sm mt-1">To deploy with ClawWrapper</p>
+              </div>
+              <div className="hidden md:block w-px h-12 bg-zinc-800" />
+              <div>
+                <p className="text-3xl font-bold text-white">100%</p>
+                <p className="text-zinc-500 text-sm mt-1">Source code ownership</p>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* How It Works - 3 Steps */}
+      <section id="how-it-works" className="py-24 px-6">
+        <div className="max-w-6xl mx-auto">
+          <AnimatedSection>
+            <div className="text-center mb-16">
+              <p className="text-emerald-400 text-sm font-medium mb-3">HOW IT WORKS</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+                Three steps to launch
+              </h2>
+              <p className="text-zinc-400 text-lg max-w-xl mx-auto">
+                No complicated setup. No infrastructure headaches. Just clone, configure, and deploy.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <div className="grid md:grid-cols-3 gap-8">
             {[
               {
-                metric: '$4K–$22K/mo',
-                label: 'Marketplace Listings',
-                title: 'Real market demand',
-                description: 'Marketplaces like TrustMRR list multiple OpenClaw wrappers selling to customers.',
-                gradient: 'from-emerald-500/20 to-emerald-600/5',
-                accentColor: 'text-emerald-400'
+                step: '01',
+                title: 'Clone the repo',
+                description: 'Get instant access to the full codebase. Next.js, TypeScript, Tailwind — everything set up and ready.',
+                icon: <Code2 className="h-5 w-5" />
               },
               {
-                metric: '$4K in 6 days',
-                label: 'Fast Traction',
-                title: 'Quick wins are real',
-                description: 'Fast traction is real when the product is simple and the onboarding is clean.',
-                gradient: 'from-cyan-500/20 to-cyan-600/5',
-                accentColor: 'text-cyan-400'
+                step: '02',
+                title: 'Add your keys',
+                description: 'Drop in your Stripe, Supabase, and AWS credentials. All integrations are pre-wired and documented.',
+                icon: <Key className="h-5 w-5" />
               },
               {
-                metric: '$22K+',
-                label: 'Total Revenue',
-                title: 'Meaningful revenue',
-                description: 'Small wrappers can reach meaningful revenue fast with a focused offer.',
-                gradient: 'from-amber-500/20 to-amber-600/5',
-                accentColor: 'text-amber-400'
+                step: '03',
+                title: 'Deploy and sell',
+                description: 'Run the deploy script. Your branded OpenClaw wrapper is live and accepting payments.',
+                icon: <Sparkles className="h-5 w-5" />
               }
             ].map((item, idx) => (
               <AnimatedSection key={idx} delay={idx * 100}>
-                <div 
-                  className={`group bg-gradient-to-br ${item.gradient} border border-white/5 hover:border-white/10 rounded-2xl p-8 cursor-pointer transition-all hover:-translate-y-1`}
-                  onClick={() => setSelectedImage(item.label)}
-                >
-                  <div className="mb-6">
-                    <p className={`text-4xl lg:text-5xl font-bold font-mono ${item.accentColor}`}>{item.metric}</p>
-                    <p className="text-[#71717a] text-sm mt-1">{item.label}</p>
+                <div className="relative">
+                  <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8 h-full hover:border-zinc-700 transition-colors">
+                    <div className="flex items-center gap-4 mb-6">
+                      <div className="w-10 h-10 bg-zinc-800 rounded-xl flex items-center justify-center text-zinc-400">
+                        {item.icon}
+                      </div>
+                      <span className="text-zinc-600 font-mono text-sm">{item.step}</span>
+                    </div>
+                    <h3 className="text-xl font-semibold mb-3">{item.title}</h3>
+                    <p className="text-zinc-400 leading-relaxed">{item.description}</p>
                   </div>
-                  <h3 className="text-lg font-semibold mb-2">{item.title}</h3>
-                  <p className="text-[#a1a1aa] text-sm leading-relaxed">{item.description}</p>
+                  {idx < 2 && (
+                    <div className="hidden md:block absolute top-1/2 -right-4 w-8 h-px bg-zinc-800" />
+                  )}
                 </div>
               </AnimatedSection>
             ))}
           </div>
-
-          {/* Testimonial */}
-          <AnimatedSection delay={400}>
-            <div className="mt-16 bg-[#1e1e28] border border-white/5 rounded-2xl p-8 lg:p-12">
-              <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
-                <div className="w-16 h-16 rounded-2xl bg-gradient-to-br from-amber-400 to-amber-600 flex items-center justify-center text-black text-xl font-bold flex-shrink-0">
-                  "
-                </div>
-                <div className="flex-1">
-                  <p className="text-2xl lg:text-3xl font-bold mb-3">
-                    "Wrappers are having a moment."
-                  </p>
-                  <p className="text-[#71717a] text-sm italic">
-                    (Replace with your own quote or a real testimonial you have permission to use.)
-                  </p>
-                </div>
-              </div>
-            </div>
-          </AnimatedSection>
-
-          {/* Disclaimer */}
-          <AnimatedSection delay={500}>
-            <p className="mt-8 text-center text-[#71717a] text-sm italic">
-              Results vary. These are examples from the market, not guarantees.
-            </p>
-          </AnimatedSection>
         </div>
       </section>
 
-      {/* Comparison Section */}
-      <section id="comparison" className="py-24 bg-[#0a0a0f]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      {/* What's Inside - Detailed Breakdown */}
+      <section id="whats-inside" className="py-24 px-6 bg-zinc-900/30">
+        <div className="max-w-6xl mx-auto">
           <AnimatedSection>
-            <div className="text-left mb-16">
-              <p className="text-amber-400 font-mono text-sm mb-4">TIME SAVED</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                Weeks of Work, <span className="text-[#71717a]">or Hours</span>
+            <div className="text-center mb-16">
+              <p className="text-emerald-400 text-sm font-medium mb-3">WHAT'S INSIDE</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+                Everything you need to ship
               </h2>
-              <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                Skip the infrastructure grind and go straight to selling.
+              <p className="text-zinc-400 text-lg max-w-xl mx-auto">
+                Not a starter template. A complete, production-ready codebase you can deploy today.
               </p>
             </div>
           </AnimatedSection>
 
-          <div className="grid lg:grid-cols-2 gap-8">
-            {/* Building From Scratch */}
-            <AnimatedSection delay={100}>
-              <div className="bg-[#12121a] border border-white/5 rounded-2xl p-8">
-                <div className="mb-8">
-                  <h3 className="text-xl font-bold mb-2">Building From Scratch</h3>
-                  <p className="text-3xl font-bold text-red-400 font-mono">2–4 weeks</p>
-                </div>
-                <ul className="space-y-4">
-                  {[
-                    'Set up auth + sessions + org accounts',
-                    'Build billing (Stripe subscriptions + webhooks + customer portal)',
-                    'Build admin dashboard (users, access control, metrics)',
-                    'Set up database + migrations + realtime updates',
-                    'Build agent lifecycle (start/stop/provision) + secure secrets storage',
-                    'Add monitoring + logs + production hardening',
-                    'Write setup docs people can actually follow'
-                  ].map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-3">
-                      <X className="h-5 w-5 text-red-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-[#a1a1aa] text-sm">{item}</span>
-                    </li>
-                  ))}
-                </ul>
-              </div>
-            </AnimatedSection>
-
-            {/* With ClawWrapper */}
-            <AnimatedSection delay={200}>
-              <div className="bg-gradient-to-br from-amber-400/10 to-cyan-400/5 border border-amber-400/20 rounded-2xl p-8 relative overflow-hidden">
-                <div className="absolute top-4 right-4 px-3 py-1 bg-amber-400 text-black text-xs font-bold rounded-full">
-                  RECOMMENDED
-                </div>
-                <div className="mb-8">
-                  <h3 className="text-xl font-bold mb-2">With ClawWrapper</h3>
-                  <p className="text-3xl font-bold text-emerald-400 font-mono">under 1 day</p>
-                </div>
-                <ul className="space-y-4 mb-8">
-                  {[
-                    'Clone the repo + set env vars',
-                    'Connect Stripe + Supabase + AWS',
-                    'Run the setup script + deploy'
-                  ].map((item, idx) => (
-                    <li key={idx} className="flex items-start gap-3">
-                      <Check className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                      <span className="text-white font-medium text-sm">Step {idx + 1}: {item}</span>
-                    </li>
-                  ))}
-                </ul>
-                <div className="border-t border-white/10 pt-6">
-                  <p className="font-semibold text-amber-400 mb-4 text-sm">What you end up with</p>
-                  <ul className="space-y-2">
-                    {[
-                      'A live product accepting payments',
-                      'A dashboard to manage customers + agents',
-                      'Full source code you own and can rebrand',
-                      'Deployment + logs + basic monitoring included'
-                    ].map((item, idx) => (
-                      <li key={idx} className="flex items-start gap-2">
-                        <Check className="h-4 w-4 text-emerald-400 flex-shrink-0 mt-0.5" />
-                        <span className="text-[#a1a1aa] text-sm">{item}</span>
-                      </li>
-                    ))}
-                  </ul>
-                </div>
-              </div>
-            </AnimatedSection>
-          </div>
-        </div>
-      </section>
-
-      {/* Features Grid */}
-      <section id="features" className="py-24 bg-[#12121a]">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <AnimatedSection>
-            <div className="text-left mb-16">
-              <p className="text-amber-400 font-mono text-sm mb-4">EVERYTHING INCLUDED</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                Ship-Ready Features <span className="text-[#71717a]">(Not "Coming Soon")</span>
-              </h2>
-              <p className="text-xl text-[#a1a1aa] max-w-2xl">
-                Everything you'd normally build the hard way.
-              </p>
-            </div>
-          </AnimatedSection>
-
-          <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-4">
+          <div className="grid sm:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               {
-                icon: <Lock className="h-6 w-6" />,
-                title: 'Auth (B2B-ready)',
-                description: 'Org accounts, magic links, sessions.',
-                iconBg: 'bg-emerald-400/10',
-                iconColor: 'text-emerald-400'
+                icon: <Users className="h-5 w-5" />,
+                title: 'Auth & Organizations',
+                description: 'B2B-ready auth with Stytch. Magic links, sessions, org accounts built in.',
+                tag: 'Core'
               },
               {
-                icon: <CreditCard className="h-6 w-6" />,
+                icon: <DollarSign className="h-5 w-5" />,
                 title: 'Stripe Billing',
-                description: 'Checkout, subscriptions, webhooks, customer portal.',
-                iconBg: 'bg-purple-400/10',
-                iconColor: 'text-purple-400'
+                description: 'Subscriptions, checkout, webhooks, and customer portal. All wired up.',
+                tag: 'Core'
               },
               {
-                icon: <Zap className="h-6 w-6" />,
+                icon: <Server className="h-5 w-5" />,
                 title: 'Agent Provisioning',
-                description: 'Launch isolated OpenClaw instances (start/stop/delete) on AWS.',
-                iconBg: 'bg-amber-400/10',
-                iconColor: 'text-amber-400'
+                description: 'Spin up isolated OpenClaw instances on AWS. Start, stop, delete.',
+                tag: 'Core'
               },
               {
-                icon: <Shield className="h-6 w-6" />,
+                icon: <Shield className="h-5 w-5" />,
                 title: 'Encrypted Secrets',
-                description: 'Keys stored securely (no keys in your database).',
-                iconBg: 'bg-red-400/10',
-                iconColor: 'text-red-400'
+                description: 'Customer API keys stored securely. Never in your database.',
+                tag: 'Security'
               },
               {
-                icon: <Globe className="h-6 w-6" />,
+                icon: <Activity className="h-5 w-5" />,
                 title: 'Realtime Status',
-                description: 'Live instance status + setup progress in the dashboard.',
-                iconBg: 'bg-cyan-400/10',
-                iconColor: 'text-cyan-400'
+                description: 'Live instance health and setup progress in the dashboard.',
+                tag: 'Dashboard'
               },
               {
-                icon: <LayoutDashboard className="h-6 w-6" />,
-                title: 'Admin Dashboard',
-                description: 'Manage users, org access, and instances from one place.',
-                iconBg: 'bg-orange-400/10',
-                iconColor: 'text-orange-400'
+                icon: <Layers className="h-5 w-5" />,
+                title: 'Admin Panel',
+                description: 'Manage users, orgs, and instances. Full control from one place.',
+                tag: 'Dashboard'
               },
               {
-                icon: <Palette className="h-6 w-6" />,
-                title: 'White-Label',
-                description: 'Change name/logo/colors quickly. Make it your brand.',
-                iconBg: 'bg-pink-400/10',
-                iconColor: 'text-pink-400'
+                icon: <Paintbrush className="h-5 w-5" />,
+                title: 'White-Label Ready',
+                description: 'Swap colors, logos, copy in minutes. Make it yours.',
+                tag: 'Branding'
               },
               {
-                icon: <Smartphone className="h-6 w-6" />,
-                title: 'Docs + Scripts',
-                description: 'Setup steps that reduce support and refunds.',
-                iconBg: 'bg-indigo-400/10',
-                iconColor: 'text-indigo-400'
+                icon: <FileText className="h-5 w-5" />,
+                title: 'Docs & Scripts',
+                description: 'Setup guides that work. Fewer support tickets, fewer refunds.',
+                tag: 'Docs'
               }
             ].map((feature, idx) => (
               <AnimatedSection key={idx} delay={idx * 50}>
-                <div className="group bg-[#1e1e28] border border-white/5 hover:border-white/10 rounded-xl p-6 transition-all hover:-translate-y-1">
-                  <div className={`w-12 h-12 ${feature.iconBg} rounded-xl flex items-center justify-center mb-4`}>
-                    <div className={feature.iconColor}>{feature.icon}</div>
+                <div className="bg-zinc-900/50 border border-zinc-800 rounded-xl p-6 h-full hover:border-zinc-700 transition-all group">
+                  <div className="flex items-start justify-between mb-4">
+                    <div className="w-10 h-10 bg-zinc-800 rounded-lg flex items-center justify-center text-zinc-400 group-hover:text-white transition-colors">
+                      {feature.icon}
+                    </div>
+                    <span className="text-xs text-zinc-600 font-medium">{feature.tag}</span>
                   </div>
                   <h3 className="font-semibold mb-2">{feature.title}</h3>
-                  <p className="text-[#71717a] text-sm leading-relaxed">{feature.description}</p>
+                  <p className="text-zinc-500 text-sm leading-relaxed">{feature.description}</p>
                 </div>
               </AnimatedSection>
             ))}
@@ -545,21 +386,19 @@ const LandingPage: React.FC = () => {
 
           {/* Tech Stack */}
           <AnimatedSection delay={400}>
-            <div className="mt-16">
-              <p className="text-[#71717a] text-sm mb-6 text-center">BUILT WITH</p>
-              <div className="flex flex-wrap justify-center gap-4">
+            <div className="mt-16 pt-16 border-t border-zinc-800">
+              <p className="text-zinc-500 text-sm text-center mb-8">BUILT WITH</p>
+              <div className="flex flex-wrap justify-center gap-3">
                 {techStackData.map((tech, idx) => (
                   <div 
                     key={idx} 
-                    className="group flex items-center gap-3 px-5 py-3 bg-[#1e1e28] border border-white/5 hover:border-white/20 rounded-xl transition-all hover:-translate-y-0.5"
+                    className="flex items-center gap-2 px-4 py-2 bg-zinc-900 border border-zinc-800 rounded-lg hover:border-zinc-700 transition-colors"
                   >
                     <tech.icon 
-                      className="w-5 h-5 transition-colors" 
+                      className="w-4 h-4" 
                       style={{ color: tech.color }}
                     />
-                    <span className="text-sm font-medium text-[#a1a1aa] group-hover:text-white transition-colors">
-                      {tech.name}
-                    </span>
+                    <span className="text-sm text-zinc-400">{tech.name}</span>
                   </div>
                 ))}
               </div>
@@ -568,140 +407,203 @@ const LandingPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Pricing Section */}
-      <section id="pricing" className="py-24 bg-[#0a0a0f] relative">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(251,191,36,0.05),transparent_60%)]" />
-        
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 relative">
+      {/* The Alternative */}
+      <section className="py-24 px-6">
+        <div className="max-w-4xl mx-auto">
           <AnimatedSection>
             <div className="text-center mb-12">
-              <p className="text-amber-400 font-mono text-sm mb-4">SIMPLE PRICING</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                One Price. <span className="text-[#71717a]">Everything Included.</span>
+              <p className="text-zinc-500 text-sm font-medium mb-3">THE ALTERNATIVE</p>
+              <h2 className="text-3xl sm:text-4xl font-bold">
+                Build it yourself?
               </h2>
-              <p className="text-xl text-[#a1a1aa]">
-                No subscriptions. No per-seat pricing. No hidden fees.
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={100}>
+            <div className="bg-zinc-900/50 border border-zinc-800 rounded-2xl p-8">
+              <div className="grid md:grid-cols-2 gap-8">
+                <div>
+                  <div className="flex items-center gap-3 mb-6">
+                    <Clock className="h-5 w-5 text-zinc-500" />
+                    <span className="text-zinc-500 font-medium">Building from scratch</span>
+                  </div>
+                  <ul className="space-y-4">
+                    {[
+                      'Set up Next.js project structure',
+                      'Integrate Stytch or build custom auth',
+                      'Wire up Stripe subscriptions + webhooks',
+                      'Build admin dashboard from scratch',
+                      'Create agent provisioning system',
+                      'Implement secrets encryption',
+                      'Add realtime status updates',
+                      'Write deployment scripts',
+                      'Document everything'
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3 text-zinc-500 text-sm">
+                        <span className="w-1.5 h-1.5 bg-zinc-600 rounded-full mt-2 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-6 text-zinc-400 font-mono text-sm">
+                    Estimated time: <span className="text-red-400">2–4 weeks</span>
+                  </p>
+                </div>
+                
+                <div className="md:border-l md:border-zinc-800 md:pl-8">
+                  <div className="flex items-center gap-3 mb-6">
+                    <Package className="h-5 w-5 text-emerald-400" />
+                    <span className="text-white font-medium">With ClawWrapper</span>
+                  </div>
+                  <ul className="space-y-4">
+                    {[
+                      'Clone the repository',
+                      'Add your environment variables',
+                      'Run the deploy command'
+                    ].map((item, idx) => (
+                      <li key={idx} className="flex items-start gap-3 text-zinc-300 text-sm">
+                        <Check className="h-4 w-4 text-emerald-400 mt-0.5 flex-shrink-0" />
+                        {item}
+                      </li>
+                    ))}
+                  </ul>
+                  <p className="mt-6 text-zinc-400 font-mono text-sm">
+                    Estimated time: <span className="text-emerald-400">&lt;1 day</span>
+                  </p>
+                  
+                  <div className="mt-8 p-4 bg-zinc-800/50 rounded-lg">
+                    <p className="text-sm text-zinc-400">
+                      You get the same result — but you keep 2–4 weeks of your life.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </AnimatedSection>
+        </div>
+      </section>
+
+      {/* Pricing */}
+      <section id="pricing" className="py-24 px-6 bg-zinc-900/30">
+        <div className="max-w-xl mx-auto">
+          <AnimatedSection>
+            <div className="text-center mb-12">
+              <p className="text-emerald-400 text-sm font-medium mb-3">PRICING</p>
+              <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+                One price. Everything included.
+              </h2>
+              <p className="text-zinc-400">
+                No subscriptions. No per-seat fees. Pay once, own it forever.
+              </p>
+            </div>
+          </AnimatedSection>
+
+          <AnimatedSection delay={100}>
+            <div className="bg-zinc-900 border border-zinc-800 rounded-2xl p-8 relative overflow-hidden">
+              {/* Early bird badge */}
+              <div className="absolute top-0 right-0 bg-emerald-500 text-black text-xs font-bold px-3 py-1 rounded-bl-lg">
+                EARLY BIRD
+              </div>
+
+              <div className="text-center mb-8">
+                <div className="flex items-center justify-center gap-3 mb-2">
+                  <span className="text-2xl text-zinc-500 line-through">$299</span>
+                  <span className="text-5xl font-bold">$99</span>
+                </div>
+                <p className="text-zinc-500 text-sm">One-time payment · Lifetime access</p>
+              </div>
+
+              <div className="space-y-3 mb-8">
+                {[
+                  'Complete Next.js + TypeScript codebase',
+                  'Auth with org accounts (Stytch)',
+                  'Stripe billing (subscriptions, webhooks, portal)',
+                  'Admin dashboard',
+                  'Agent provisioning on AWS',
+                  'Encrypted secrets storage',
+                  'White-label branding',
+                  'Setup scripts + documentation',
+                  'Lifetime updates',
+                  '14-day money-back guarantee'
+                ].map((item, idx) => (
+                  <div key={idx} className="flex items-center gap-3">
+                    <Check className="h-4 w-4 text-emerald-400 flex-shrink-0" />
+                    <span className="text-zinc-300 text-sm">{item}</span>
+                  </div>
+                ))}
+              </div>
+
+              <Button 
+                onClick={handleGetClawWrapper}
+                className="w-full bg-white hover:bg-zinc-200 text-black font-semibold py-6 rounded-xl"
+              >
+                Get ClawWrapper
+                <ArrowRight className="ml-2 h-4 w-4" />
+              </Button>
+
+              <p className="text-center text-zinc-500 text-xs mt-4">
+                Secure checkout via Stripe
               </p>
             </div>
           </AnimatedSection>
 
           <AnimatedSection delay={200}>
-            <div className="bg-gradient-to-b from-[#1e1e28] to-[#12121a] border border-amber-400/20 rounded-3xl p-8 lg:p-12 shadow-[0_0_60px_rgba(251,191,36,0.1)]">
-              {/* Pricing header */}
-              <div className="text-center mb-10">
-                <div className="inline-flex items-center gap-2 px-4 py-2 bg-red-500/10 border border-red-500/20 rounded-full mb-6">
-                  <span className="text-red-400 text-sm font-medium">Early-bird: only 5 spots at this price</span>
-                </div>
-                <p className="text-[#71717a] mb-4">One-time payment</p>
-                <div className="flex items-center justify-center gap-4">
-                  <span className="text-3xl text-[#71717a] line-through font-light">$299</span>
-                  <span className="text-6xl lg:text-7xl font-bold text-amber-400 font-mono">$99</span>
-                </div>
-              </div>
-
-              {/* Features list - 2 columns */}
-              <div className="grid md:grid-cols-2 gap-3 mb-10">
-                {[
-                  'Full source code (Next.js + TypeScript)',
-                  'Auth + org accounts',
-                  'Stripe subscriptions + webhooks + customer portal',
-                  'Admin dashboard',
-                  'Agent lifecycle (provision/start/stop/delete)',
-                  'Secure secrets storage',
-                  'White-label branding',
-                  'Setup scripts + documentation',
-                  'Lifetime updates',
-                  '14-day money-back guarantee'
-                ].map((feature, idx) => (
-                  <div key={idx} className="flex items-start gap-3">
-                    <Check className="h-5 w-5 text-emerald-400 flex-shrink-0 mt-0.5" />
-                    <span className="text-[#a1a1aa] text-sm">{feature}</span>
-                  </div>
-                ))}
-              </div>
-
-              {/* CTA */}
-              <Button 
-                onClick={handleGetClawWrapper}
-                className="w-full bg-amber-400 hover:bg-amber-300 text-black font-bold py-6 text-lg rounded-xl shadow-[0_0_30px_rgba(251,191,36,0.3)] hover:shadow-[0_0_50px_rgba(251,191,36,0.5)] transition-all"
-              >
-                Get ClawWrapper — $99
-                <ArrowRight className="ml-2 h-5 w-5" />
-              </Button>
-
-              {/* Trust badges */}
-              <div className="flex flex-wrap justify-center gap-6 mt-8 text-sm text-[#71717a]">
-                <div className="flex items-center gap-2">
-                  <Shield className="h-4 w-4 text-emerald-400" />
-                  <span>Secure checkout</span>
-                </div>
-                <div className="flex items-center gap-2">
-                  <Check className="h-4 w-4 text-emerald-400" />
-                  <span>Instant access</span>
-                </div>
-              </div>
-            </div>
+            <p className="text-center text-zinc-500 text-sm mt-8">
+              Only 5 spots at early-bird pricing. Then it's $299.
+            </p>
           </AnimatedSection>
         </div>
       </section>
 
-      {/* FAQ Section */}
-      <section id="faq" className="py-24 bg-[#12121a]">
-        <div className="max-w-4xl mx-auto px-6 lg:px-8">
+      {/* FAQ */}
+      <section id="faq" className="py-24 px-6">
+        <div className="max-w-2xl mx-auto">
           <AnimatedSection>
-            <div className="text-left mb-12">
-              <p className="text-amber-400 font-mono text-sm mb-4">FAQ</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                Questions? <span className="text-[#71717a]">Answers.</span>
+            <div className="text-center mb-12">
+              <p className="text-emerald-400 text-sm font-medium mb-3">FAQ</p>
+              <h2 className="text-3xl sm:text-4xl font-bold">
+                Common questions
               </h2>
             </div>
           </AnimatedSection>
 
-          <AnimatedSection delay={200}>
-            <Accordion type="single" collapsible className="space-y-3">
+          <AnimatedSection delay={100}>
+            <Accordion type="single" collapsible className="space-y-2">
               {[
                 {
-                  question: 'How do I get access after I buy?',
-                  answer: 'Instant access (download or private repo invite). Setup instructions included.'
-                },
-                {
-                  question: 'What exactly do I get for $99?',
-                  answer: 'A complete, working codebase you can rebrand and deploy, plus docs and scripts.'
+                  question: 'What do I actually get?',
+                  answer: 'A complete, working codebase. Not a tutorial or a starter template. You get auth, billing, admin dashboard, agent provisioning, and deployment scripts. Clone it, add your keys, deploy it. Done.'
                 },
                 {
                   question: 'Do I need to be a developer?',
-                  answer: 'You\'ll be fastest if you can run commands and edit env vars. If not, a freelancer can deploy this in a day.'
+                  answer: 'You should be comfortable running terminal commands and editing environment variables. If that sounds scary, hire a freelancer — they can deploy this in a day.'
                 },
                 {
-                  question: 'How is this different from generic boilerplates?',
-                  answer: 'It\'s built specifically for OpenClaw wrappers: provisioning, instance lifecycle, secure key handling, and a dashboard that matches the business.'
-                },
-                {
-                  question: 'What auth methods are included?',
-                  answer: 'B2B-style org accounts with Stytch (magic links + sessions).'
-                },
-                {
-                  question: 'What\'s included in lifetime updates?',
-                  answer: 'Bug fixes, improvements, and maintenance updates to keep the stack current.'
+                  question: 'How is this different from ShipFast or other boilerplates?',
+                  answer: 'Those are generic SaaS starters. ClawWrapper is built specifically for OpenClaw wrappers — the agent provisioning, instance lifecycle management, and dashboard are all purpose-built for this use case.'
                 },
                 {
                   question: 'Can I use this for multiple products?',
-                  answer: 'Yes. Clone it, rebrand it, and ship multiple wrappers.'
+                  answer: 'Yes. Clone the repo as many times as you want. Different brands, different niches, same codebase. One purchase, unlimited wrappers.'
                 },
                 {
-                  question: 'Refund policy?',
-                  answer: '14 days. If it\'s not a fit, you get your money back.'
+                  question: 'What if it doesn\'t work for me?',
+                  answer: '14-day money-back guarantee. If you can\'t get it deployed or it\'s not what you expected, email me and I\'ll refund you. No questions.'
+                },
+                {
+                  question: 'What\'s included in updates?',
+                  answer: 'Bug fixes, security patches, and improvements to the codebase. You get access to the repo — pull updates whenever you want. No extra cost.'
                 }
               ].map((faq, idx) => (
                 <AccordionItem 
                   key={idx} 
                   value={`item-${idx}`} 
-                  className="bg-[#1e1e28] border border-white/5 rounded-xl px-6 data-[state=open]:border-amber-400/20 transition-colors"
+                  className="bg-zinc-900/50 border border-zinc-800 rounded-xl px-6 data-[state=open]:border-zinc-700"
                 >
-                  <AccordionTrigger className="text-left font-medium hover:no-underline py-5 text-white">
+                  <AccordionTrigger className="text-left font-medium hover:no-underline py-4 text-white">
                     {faq.question}
                   </AccordionTrigger>
-                  <AccordionContent className="text-[#a1a1aa] pb-5 leading-relaxed">
+                  <AccordionContent className="text-zinc-400 pb-4 leading-relaxed">
                     {faq.answer}
                   </AccordionContent>
                 </AccordionItem>
@@ -711,110 +613,42 @@ const LandingPage: React.FC = () => {
         </div>
       </section>
 
-      {/* Use Cases Section */}
-      <section id="use-cases" className="py-24 bg-[#0a0a0f] overflow-hidden">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
+      {/* Final CTA */}
+      <section className="py-24 px-6 bg-zinc-900/30">
+        <div className="max-w-2xl mx-auto text-center">
           <AnimatedSection>
-            <div className="text-left mb-12">
-              <p className="text-amber-400 font-mono text-sm mb-4">POSSIBILITIES</p>
-              <h2 className="text-4xl lg:text-5xl font-bold mb-4">
-                What can OpenClaw <span className="text-[#71717a]">do for your customers?</span>
-              </h2>
-              <p className="text-xl text-[#a1a1aa]">
-                One assistant. Thousands of use cases.
-              </p>
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection delay={200}>
-            <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-4 gap-3">
-              {[
-                'Answer support tickets',
-                'Draft replies and follow-ups',
-                'Summarize documents',
-                'Schedule meetings and reminders',
-                'Research competitors',
-                'Generate invoices and proposals',
-                'Track tasks and deadlines',
-                'Build niche assistants for real estate, agencies, coaches, ecommerce'
-              ].map((useCase, idx) => (
-                <div 
-                  key={idx}
-                  className="bg-[#12121a] border border-white/5 rounded-lg px-4 py-3 text-sm text-[#a1a1aa] hover:border-amber-400/20 hover:text-white transition-all cursor-default"
-                >
-                  {useCase}
-                </div>
-              ))}
-            </div>
-          </AnimatedSection>
-
-          <AnimatedSection delay={300}>
-            <p className="text-left text-[#71717a] italic mt-8 text-sm">
-              PS: You can add unlimited use cases through prompts and onboarding.
-            </p>
-          </AnimatedSection>
-        </div>
-      </section>
-
-      {/* Final CTA Section */}
-      <section id="final-cta" className="py-24 bg-[#12121a] relative overflow-hidden">
-        <div className="absolute inset-0 bg-[radial-gradient(ellipse_at_center,rgba(251,191,36,0.1),transparent_50%)]" />
-        
-        <div className="max-w-4xl mx-auto px-6 lg:px-8 text-center relative">
-          <AnimatedSection>
-            <h2 className="text-4xl lg:text-5xl font-bold mb-6">
-              Stop Building Infrastructure.
-              <br />
-              <span className="bg-gradient-to-r from-amber-400 to-cyan-400 bg-clip-text text-transparent">Start Earning.</span>
+            <h2 className="text-3xl sm:text-4xl font-bold mb-4">
+              Ready to ship?
             </h2>
-          </AnimatedSection>
-          
-          <AnimatedSection delay={100}>
-            <p className="text-xl text-[#a1a1aa] mb-10 max-w-2xl mx-auto">
-              Every day you spend wiring up auth, billing, and deployments is a day you're not shipping.
+            <p className="text-zinc-400 text-lg mb-8">
+              Stop building infrastructure. Start building your business.
             </p>
           </AnimatedSection>
-          
-          <AnimatedSection delay={200}>
-            <div className="inline-flex flex-col items-center bg-[#0a0a0f] border border-amber-400/20 rounded-2xl p-8 mb-8">
-              <p className="text-amber-400 text-sm font-medium mb-4">Early access</p>
-              <div className="flex items-center gap-4 mb-4">
-                <span className="text-2xl text-[#71717a] line-through">$299</span>
-                <span className="text-5xl font-bold text-amber-400 font-mono">$99</span>
-              </div>
-              <p className="text-red-400 text-sm">
-                Only 5 spots left
-              </p>
-            </div>
-          </AnimatedSection>
 
-          <AnimatedSection delay={300}>
+          <AnimatedSection delay={100}>
             <Button 
               onClick={handleGetClawWrapper}
-              className="bg-amber-400 hover:bg-amber-300 text-black font-bold py-6 px-12 text-lg rounded-xl shadow-[0_0_40px_rgba(251,191,36,0.4)] hover:shadow-[0_0_60px_rgba(251,191,36,0.6)] transition-all"
+              size="lg"
+              className="bg-white hover:bg-zinc-200 text-black font-semibold px-8 py-6 text-base rounded-xl"
             >
-              Start Building Now — $99
-              <ArrowRight className="ml-2 h-5 w-5" />
+              Get ClawWrapper — $99
+              <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
           </AnimatedSection>
 
-          <AnimatedSection delay={400}>
-            <div className="flex flex-wrap justify-center gap-6 mt-10 text-sm text-[#71717a]">
+          <AnimatedSection delay={200}>
+            <div className="flex items-center justify-center gap-6 mt-8 text-sm text-zinc-500">
               <span className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-emerald-400" />
                 Full source code
               </span>
               <span className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-emerald-400" />
-                Lifetime access
+                Lifetime updates
               </span>
               <span className="flex items-center gap-2">
                 <Check className="h-4 w-4 text-emerald-400" />
-                Free updates
-              </span>
-              <span className="flex items-center gap-2">
-                <Check className="h-4 w-4 text-emerald-400" />
-                Clear docs
+                14-day refund
               </span>
             </div>
           </AnimatedSection>
@@ -822,72 +656,38 @@ const LandingPage: React.FC = () => {
       </section>
 
       {/* Footer */}
-      <footer className="bg-[#0a0a0f] border-t border-white/5 py-12">
-        <div className="max-w-7xl mx-auto px-6 lg:px-8">
-          <div className="grid md:grid-cols-3 gap-8 mb-8">
-            <div>
-              <div className="flex items-center gap-3 mb-4">
-                <div className="w-10 h-10 bg-gradient-to-br from-amber-400 to-amber-600 rounded-xl flex items-center justify-center">
-                  <Terminal className="h-5 w-5 text-black" />
-                </div>
-                <span className="text-xl font-bold">ClawWrapper</span>
+      <footer className="border-t border-zinc-800 py-12 px-6">
+        <div className="max-w-6xl mx-auto">
+          <div className="flex flex-col md:flex-row items-center justify-between gap-6">
+            <div className="flex items-center gap-2">
+              <div className="w-8 h-8 bg-white rounded-lg flex items-center justify-center">
+                <Terminal className="h-4 w-4 text-black" />
               </div>
-              <p className="text-[#71717a] text-sm">
-                Launch your OpenClaw wrapper with production-ready infrastructure.
-              </p>
+              <span className="font-semibold">ClawWrapper</span>
             </div>
-            <div>
-              <h3 className="font-semibold mb-4">Legal</h3>
-              <ul className="space-y-2 text-sm text-[#71717a]">
-                <li><a href="#" className="hover:text-white transition-colors">Terms</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">Privacy</a></li>
-                <li><a href="#" className="hover:text-white transition-colors">License</a></li>
-              </ul>
+            
+            <div className="flex items-center gap-6 text-sm text-zinc-500">
+              <a href="#" className="hover:text-white transition-colors">Terms</a>
+              <a href="#" className="hover:text-white transition-colors">Privacy</a>
+              <a href="#" className="hover:text-white transition-colors">Support</a>
             </div>
-            <div>
-              <h3 className="font-semibold mb-4">Support</h3>
-              <ul className="space-y-2 text-sm text-[#71717a]">
-                <li><a href="#" className="hover:text-white transition-colors">Contact Support</a></li>
-              </ul>
-            </div>
-          </div>
-          <div className="border-t border-white/5 pt-8 text-center text-sm text-[#71717a]">
-            <p>© 2026 ClawWrapper. All rights reserved.</p>
+
+            <p className="text-zinc-500 text-sm">
+              © 2026 ClawWrapper
+            </p>
           </div>
         </div>
       </footer>
 
       {/* Mobile Sticky CTA */}
-      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-[#0a0a0f]/95 backdrop-blur-md border-t border-white/10 z-40">
+      <div className="md:hidden fixed bottom-0 left-0 right-0 p-4 bg-zinc-900/95 backdrop-blur-lg border-t border-zinc-800 z-40">
         <Button 
           onClick={handleGetClawWrapper}
-          className="w-full bg-amber-400 hover:bg-amber-300 text-black font-bold py-4 rounded-xl"
+          className="w-full bg-white hover:bg-zinc-200 text-black font-semibold py-4 rounded-xl"
         >
           Get ClawWrapper — $99
-          <ArrowRight className="ml-2 h-5 w-5" />
         </Button>
       </div>
-
-      {/* Lightbox for images */}
-      {selectedImage && (
-        <div 
-          className="fixed inset-0 bg-black/90 backdrop-blur-sm z-50 flex items-center justify-center p-4"
-          onClick={() => setSelectedImage(null)}
-        >
-          <div className="max-w-4xl w-full bg-[#1e1e28] border border-white/10 rounded-2xl p-8">
-            <div className="flex justify-between items-center mb-6">
-              <h3 className="text-lg font-semibold">{selectedImage}</h3>
-              <Button variant="ghost" onClick={() => setSelectedImage(null)} className="text-[#71717a] hover:text-white">
-                Close
-              </Button>
-            </div>
-            <div className="text-center py-12">
-              <p className="text-[#71717a]">Revenue proof screenshot</p>
-              <p className="text-sm text-[#71717a] mt-2">Image: {selectedImage}</p>
-            </div>
-          </div>
-        </div>
-      )}
     </div>
   );
 };
