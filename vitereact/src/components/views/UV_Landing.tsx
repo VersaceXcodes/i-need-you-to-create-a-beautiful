@@ -906,7 +906,7 @@ const LandingPage: React.FC = () => {
           </div>
           <div className="border-t border-white/5 pt-8 text-center text-sm text-[#71717a]">
             <p>Built with love by <a href="#" className="text-amber-400 hover:text-amber-300">Savio Martin</a></p>
-            <p className="mt-2">© 2024 ClawWrapper. All rights reserved.</p>
+            <p className="mt-2">© 2026 ClawWrapper. All rights reserved.</p>
           </div>
         </div>
       </footer>
