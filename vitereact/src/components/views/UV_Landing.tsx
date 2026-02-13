@@ -24,7 +24,7 @@ import {
   Server,
   Sparkles
 } from 'lucide-react';
-import { techStackData } from '@/components/TechIcons';
+import { techStackData, YCombinatorIcon } from '@/components/TechIcons';
 
 // Intersection Observer hook for scroll animations
 const useInView = (options = {}) => {
@@ -252,8 +252,8 @@ const LandingPage: React.FC = () => {
             <div className="bg-gradient-to-br from-orange-500/10 to-orange-600/5 border border-orange-500/20 rounded-2xl p-8 md:p-12">
               <div className="flex flex-col md:flex-row items-start md:items-center gap-6">
                 {/* YC Logo */}
-                <div className="w-16 h-16 bg-orange-500 rounded-xl flex items-center justify-center flex-shrink-0">
-                  <span className="text-white font-bold text-2xl">Y</span>
+                <div className="w-16 h-16 bg-[#F26522] rounded-xl flex items-center justify-center flex-shrink-0">
+                  <YCombinatorIcon className="w-10 h-10 text-white" />
                 </div>
                 
                 <div className="flex-1">
